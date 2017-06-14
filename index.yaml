@@ -9,7 +9,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - alpine-0.3.0.tgz
+    - https://raw.githubusercontent.com/compassorg/repository/gh-pages/alpine-0.3.0.tgz
     version: 0.3.0
   - created: 2016-11-18T15:05:51.078096239-07:00
     description: Deploy a basic Alpine Linux pod
@@ -19,7 +19,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - alpine-0.2.0.tgz
+    - https://raw.githubusercontent.com/compassorg/repository/gh-pages/alpine-0.2.0.tgz
     version: 0.2.0
   - created: 2016-11-18T15:05:51.077842565-07:00
     description: Deploy a basic Alpine Linux pod
@@ -29,7 +29,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - alpine-0.1.0.tgz
+    - https://raw.githubusercontent.com/compassorg/repository/gh-pages/alpine-0.1.0.tgz
     version: 0.1.0
   mink:
   - apiVersion: v1
@@ -38,6 +38,6 @@ entries:
     digest: 28e300f4bd90e49efc8c53cb631ea25f817e1e35da4f8131298bf79a06b6ec21
     name: mink
     urls:
-    - mink-0.1.0.tgz
+    - https://raw.githubusercontent.com/compassorg/repository/gh-pages/mink-0.1.0.tgz
     version: 0.1.0
 generated: 2016-11-18T15:05:51.077257234-07:00
