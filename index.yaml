@@ -43,9 +43,9 @@ entries:
     - http://192.168.250.49:8003/charts/redis-0.7.1.tgz
     version: 0.7.1
   rabbitmq:
-  - created: 2017-06-21T16:55:50.678830447+08:00
+  - created: 2017-06-21T17:10:25.000566271+08:00
     description: 开源的实现了消息队列协议的高级消息中间件 (AMQP)
-    digest: b520d39cc21555d647170bb64c78cc426d8515b2f13d88f9933966bab7418fcd
+    digest: 4f171435a623853b046b0aa6698a0824d4e356f7abfd998dc0064fcd3d55be98
     engine: gotpl
     home: https://www.rabbitmq.com
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
