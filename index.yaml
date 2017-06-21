@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   mysql:
-  - created: 2017-06-21T14:23:47.947269637+08:00
+  - created: 2017-06-21T16:03:29.832412161+08:00
     description: 快速的, 可靠的, 扩展的, 易于使用的开放源码的关系数据库系统.
-    digest: 28add7f130f29600826991b3b32e92772efd4799f03238b080e1fd62d8b0d589
+    digest: a7458e76366b262ab12658a941241f055b56aceb766a4776885d06c948b8dc90
     engine: gotpl
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
@@ -21,4 +21,25 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/mysql-0.2.6.tgz
     version: 0.2.6
+  redis:
+  - appVersion: 3.2.9
+    created: 2017-06-21T16:07:27.116591219+08:00
+    description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
+    digest: ac91ee99886211fbd80ed6fb934a44f32e79d826899395355d7511c7011984f9
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: zhaozy@neunn.com
+      name: 赵振阳
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - http://192.168.250.49:8003/charts/redis-0.7.1.tgz
+    version: 0.7.1
 generated: 2016-11-18T15:05:51.077257234-07:00
