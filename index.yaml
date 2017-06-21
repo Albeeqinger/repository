@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   mysql:
-  - created: 2017-06-21T16:55:45.637213215+08:00
+  - created: 2017-06-21T16:03:29.832412161+08:00
     description: 快速的, 可靠的, 扩展的, 易于使用的开放源码的关系数据库系统.
-    digest: b336cfa3d246174ffd18a1fdce29d839e866d9d9d76263b031a4a077000641ca
+    digest: a7458e76366b262ab12658a941241f055b56aceb766a4776885d06c948b8dc90
     engine: gotpl
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
@@ -23,9 +23,9 @@ entries:
     version: 0.2.6
   redis:
   - appVersion: 3.2.9
-    created: 2017-06-21T16:55:40.56106013+08:00
+    created: 2017-06-21T16:07:27.116591219+08:00
     description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
-    digest: 8abd4d80615037238107e08babdeb9ba97ee3b779dafe5c360fdb55cf3a774ad
+    digest: ac91ee99886211fbd80ed6fb934a44f32e79d826899395355d7511c7011984f9
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -42,24 +42,4 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/redis-0.7.1.tgz
     version: 0.7.1
-  rabbitmq:
-  - created: 2017-06-21T16:55:50.678830447+08:00
-    description: 开源的实现了消息队列协议的高级消息中间件 (AMQP)
-    digest: b520d39cc21555d647170bb64c78cc426d8515b2f13d88f9933966bab7418fcd
-    engine: gotpl
-    home: https://www.rabbitmq.com
-    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
-    keywords:
-    - rabbitmq
-    - message queue
-    - AMQP
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: 赵振阳
-    name: rabbitmq
-    sources:
-    - https://github.com/bitnami/bitnami-docker-rabbitmq
-    urls:
-    - http://192.168.250.49:8003/charts/rabbitmq-0.5.3.tgz
-    version: 0.5.3
 generated: 2016-11-18T15:05:51.077257234-07:00
