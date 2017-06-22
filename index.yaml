@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   mysql:
-  - created: 2017-06-21T16:55:45.637213215+08:00
+  - created: 2017-06-22T17:58:37.241236833+08:00
     description: 快速的, 可靠的, 扩展的, 易于使用的开放源码的关系数据库系统.
-    digest: b336cfa3d246174ffd18a1fdce29d839e866d9d9d76263b031a4a077000641ca
+    digest: ec54eba1dfb6833a3cb7ad43a53abb3c55f070e7714946aa699144c7a0ced51d
     engine: gotpl
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
@@ -13,7 +13,7 @@ entries:
     - sql
     maintainers:
     - email: zhaozy@neunn.com
-      name: 赵振阳
+      name: www.neunn.com
     name: mysql
     sources:
     - https://github.com/kubernetes/charts
