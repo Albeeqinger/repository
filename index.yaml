@@ -63,9 +63,9 @@ entries:
     - http://192.168.250.49:8003/charts/rabbitmq-0.5.3.tgz
     version: 0.5.3
   rabbitmq-cluster:
-  - created: 2017-06-23T11:16:59.259696284+08:00
+  - created: 2017-06-23T19:38:50.725719542+08:00
     description: RabbitMQ是一个在AMQP基础上完成的，可复用的企业消息系统。
-    digest: bb66c6dfd681311ceb7e4eec29f7e976c2c091f73d6623aff059d435c45916c8
+    digest: 77870db22492550fab9dd3d29124952ee3970cb82b041562e9a265b4507ac071
     engine: gotpl
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
     maintainers:
