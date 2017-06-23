@@ -80,10 +80,23 @@ entries:
     version: 3.6.6
   mysql-cluster:
   - apiVersion: v1
-    created: 2017-06-23T18:33:20.724531446+08:00
+    created: 2017-06-23T20:43:30.68154573+08:00
     description: 负载平衡、数据备份以及高可用性和容错性，是构建大型，高性能应用程序的基础。
-    digest: 663d9d08061fe140aa01358351dc10a8b72d9d12cd0b0815e647fc3606fb47c4
+    digest: f3d4838a9430a98fcf8824963b84565cd9e6abea256146478222e8d79123e2cb
+    engine: gotpl
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - cluster
+    maintainers:
+    - email: wangc3@neunn.com
+      name: www.neunn.com
     name: mysql-cluster
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kublr/k8s-mysql-replica
     urls:
     - http://192.168.250.49:8003/charts/mysql-cluster-0.1.0.tgz
     version: 0.1.0
