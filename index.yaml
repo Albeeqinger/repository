@@ -75,4 +75,22 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/rabbitmq-cluster-3.6.6.tgz
     version: 3.6.6
+  mysql-cluster:
+  - apiVersion: v1
+    created: 2017-06-23T18:33:20.724531446+08:00
+    description: 负载平衡、数据备份以及高可用性和容错性，是构建大型，高性能应用程序的基础。
+    digest: 663d9d08061fe140aa01358351dc10a8b72d9d12cd0b0815e647fc3606fb47c4
+    name: mysql-cluster
+    urls:
+    - http://192.168.250.49:8003/charts/mysql-cluster-0.1.0.tgz
+    version: 0.1.0
+  redis-cluster:
+  - apiVersion: v1
+    created: 2017-06-23T18:36:20.493920481+08:00
+    description: A Helm chart for Kubernetes
+    digest: f854f8fbe2037d3a1e7adbcffc30ec81a25c9a7634bece19bfd69738e7681da5
+    name: redis-cluster
+    urls:
+    - http://192.168.250.49:8003/charts/redis-cluster-0.1.0.tgz
+    version: 0.1.0
 generated: 2016-11-18T15:05:51.077257234-07:00
