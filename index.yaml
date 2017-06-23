@@ -87,9 +87,9 @@ entries:
   redis-cluster:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-06-23T19:01:34.170165458+08:00
+    created: 2017-06-23T19:31:19.453056777+08:00
     description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
-    digest: 8fbcc089d773116e46095eb384477cb96be09f0b14c1f2f1bd622b7c6dbde759
+    digest: dd2698c1280fa271c0d3df8cb4ebd5df1867b95b3a3385eb6107e980241ce164
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
