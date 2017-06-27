@@ -136,6 +136,6 @@ entries:
     sources:
     - https://www.neunn.com
     urls:
-    - http://192.168.250.49:8003/chart/oracle-service-broker-0.0.2.tgz
+    - http://192.168.250.49:8003/charts/oracle-service-broker-0.0.2.tgz
     version: 0.0.2
 generated: 2016-11-18T15:05:51.077257234-07:00
