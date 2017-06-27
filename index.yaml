@@ -123,18 +123,10 @@ entries:
     - http://192.168.250.49:8003/charts/redis-cluster-0.1.0.tgz
     version: 0.1.0
   oracle-service-broker:
-  - created: 2017-06-27T13:27:38.775855651+08:00
+  - created: 2017-06-27T14:14:31.736400519+08:00
     description: user-provided oracle-service-broker deployment Helm chart.
-    digest: b3d868ff82e2ce6769d366615d78f27dd015bd44132be0b0aabe167d5eb63986
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/oracle.jpg
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
+    digest: f5cc87e6795fa1ec00d71780833eb242e5930a78d6a4ea90a4d90b4fec168af7
     name: oracle-service-broker
-    sources:
-    - https://www.neunn.com
     urls:
     - http://192.168.250.49:8003/chart/oracle-service-broker-0.0.2.tgz
     version: 0.0.2
