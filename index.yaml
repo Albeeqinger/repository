@@ -139,12 +139,12 @@ entries:
     - http://192.168.250.49:8003/charts/oracle-service-broker-0.0.2.tgz
     version: 0.0.2
   catalog:
-  - created: 2017-06-27T17:41:03.829867497+08:00
+  - created: 2017-06-28T09:05:50.43816315+08:00
     description: service-catalog API server and controller-manager helm chart
-    digest: 0ea92a0745127130c0d85e1d7e3e2eb6e6d10cf3b1f828b59570d4e9895bb4a8
+    digest: 7d830b609470c253d8dc914e5da0267bd34a7fd28dc3c9df4d5610463909210b
     engine: gotpl
     home: https://github.com/kubernetes-incubator/service-catalog
-    icon: http://orvjyath1.bkt.clouddn.com/nav_logo.svg
+    icon: http://orvjyath1.bkt.clouddn.com/nav_logo.png
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
