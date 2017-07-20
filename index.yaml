@@ -154,4 +154,23 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/catalog-0.0.1.tgz
     version: 0.0.1
+  etcd-operator:
+  - apiVersion: v1
+    appVersion: 0.3.3
+    created: 2017-07-20T14:31:30.156675427+08:00
+    description: CoreOS etcd-operator Helm chart for Kubernetes
+    digest: b5c1ef48610bcd2e177b4b4294bacecc83be9983b668118e21fdf2fccab6f5e3
+    home: https://github.com/coreos/etcd-operator
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    maintainers:
+    - email: chance.zibolski@coreos.com
+      name: chancez
+    - email: lachlan@deis.com
+      name: lachie83
+    name: etcd-operator
+    sources:
+    - https://github.com/coreos/etcd-operator
+    urls:
+    - http://192.168.250.49:8003/charts/etcd-operator-0.4.2.tgz
+    version: 0.4.2
 generated: 2016-11-18T15:05:51.077257234-07:00
