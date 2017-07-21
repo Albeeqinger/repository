@@ -207,4 +207,21 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/tomcat-0.4.2.tgz
     version: 0.4.2
+  apache:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2017-07-21T11:47:43.697549678+08:00
+    description: Apache Helm chart for Kubernetes
+    digest: a394f2ddb13ac9d836c3668917b883838708653f6f51fd2d1ab27cb4c16acb85
+    home: http://www.neunn.com
+    icon: http://www.apache.org/img/asf_logo.png
+    maintainers:
+    - email: zhaozy@neunn.com
+      name: zhaozy
+    name: apache
+    sources:
+    - http://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/apache-0.4.2.tgz
+    version: 0.4.2
 generated: 2016-11-18T15:05:51.077257234-07:00
