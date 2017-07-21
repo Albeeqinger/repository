@@ -190,4 +190,21 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/nginx-0.4.2.tgz
     version: 0.4.2
+  tomcat:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2017-07-21T10:29:19.899028457+08:00
+    description: Tomcat Helm chart for Kubernetes
+    digest: 9d875a2d6ca40d124ea030e6e8c7c6e43aab230efa3a24ca5d8f142b63614ee2
+    home: http://www.neunn.com
+    icon: http://tomcat.apache.org/images/tomcat.png
+    maintainers:
+    - email: zhaozy@neunn.com
+      name: zhaozy
+    name: tomcat
+    sources:
+    - http://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/tomcat-0.4.2.tgz
+    version: 0.4.2
 generated: 2016-11-18T15:05:51.077257234-07:00
