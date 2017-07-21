@@ -173,4 +173,21 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/etcd-operator-0.4.2.tgz
     version: 0.4.2
+  nginx:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2017-07-21T09:45:09.439687918+08:00
+    description: Nginx Helm chart for Kubernetes
+    digest: de601f7289e07331619eb7a5ea3c21d7c1aef18f403a387e08bfcc68107bdfc5
+    home: http://www.neunn.com
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    maintainers:
+    - email: zhaozy@neunn.com
+      name: zhaozy
+    name: nginx
+    sources:
+    - http://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/nginx-0.4.2.tgz
+    version: 0.4.2
 generated: 2016-11-18T15:05:51.077257234-07:00
