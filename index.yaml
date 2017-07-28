@@ -224,21 +224,21 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/apache-0.4.2.tgz
     version: 0.4.2
-  memcached-cluster:
+  memcached-master:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-07-28T14:12:58.368068549+08:00
-    description: Memcached-cluster Helm chart for Kubernetes
-    digest: 0a927c3575e73deea6535fe7738d673e075afb6e2d102c6c9a098bbef1f59d8e
+    created: 2017-07-28T16:43:01.794972031+08:00
+    description: Memcached-master Helm chart for Kubernetes
+    digest: 91b86744481c6ef2148eeed6c9283e05b93385518c46c0d68f9e0ac5355129ee
     home: https://github.com/compassorg/repository
     icon: http://logonoid.com/images/thumbs/memcached-logo.png
     maintainers:
     - email: zhaozy@neunn.com
       name: zhaozy
-    name: memcached-cluster
+    name: memcached-master
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://192.168.250.49:8003/charts/memcached-cluster-0.1.0.tgz
+    - http://192.168.250.49:8003/charts/memcached-master-0.1.0.tgz
     version: 0.1.0
 generated: 2016-11-18T15:05:51.077257234-07:00
