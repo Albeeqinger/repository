@@ -247,7 +247,7 @@ entries:
     digest: bc5ce4c4b6569db6f4064cd22e72aa968961ea5a6ea9cf182a56133c5795e1fc
     engine: gotpl
     home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/mysql-logo.svg
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     maintainers:
     - email: wang-x@neunn.com
       name: www.neunn.com
@@ -272,5 +272,21 @@ entries:
     - https://www.neunn.com
     urls:
     - http://192.168.250.49:8003/charts/postgresql-service-broker-0.0.1.tgz
+    version: 0.0.1
+  mongodb-service-broker:
+  - created: 2017-08-07T13:48:24.691245453+08:00
+    description: user-provided mongodb-service-broker deployment Helm chart.
+    digest: ba763dd498fb3f33d5336a9b346508044103a679ec5f7f5ff6d358396e39f021
+    engine: gotpl
+    home: http://www.neunn.com
+    icon: http://orvjyath1.bkt.clouddn.com/mongodb-logo.jpg
+    maintainers:
+    - email: wang-x@neunn.com
+      name: www.neunn.com
+    name: mongodb-service-broker
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/mongodb-service-broker-0.0.1.tgz
     version: 0.0.1
 generated: 2016-11-18T15:05:51.077257234-07:00
