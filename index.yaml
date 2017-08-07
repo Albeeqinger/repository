@@ -241,4 +241,20 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/memcached-master-0.1.0.tgz
     version: 0.1.0
+  mysql-service-broker:
+  - created: 2017-08-07T13:35:38.107392551+08:00
+    description: user-provided mysql-service-broker deployment Helm chart.
+    digest: bc5ce4c4b6569db6f4064cd22e72aa968961ea5a6ea9cf182a56133c5795e1fc
+    engine: gotpl
+    home: http://www.neunn.com
+    icon: http://orvjyath1.bkt.clouddn.com/mysql-logo.svg
+    maintainers:
+    - email: wang-x@neunn.com
+      name: www.neunn.com
+    name: mysql-service-broker
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/mysql-service-broker-0.0.1.tgz
+    version: 0.0.1
 generated: 2016-11-18T15:05:51.077257234-07:00
