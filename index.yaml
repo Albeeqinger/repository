@@ -257,4 +257,20 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/mysql-service-broker-0.0.1.tgz
     version: 0.0.1
+  postgresql-service-broker:
+  - created: 2017-08-07T13:43:40.776303255+08:00
+    description: user-provided postgresql-service-broker deployment Helm chart.
+    digest: c16d8cc0d2aa2511fb7d88e5107392bd2ccb6908b995c89a2d9b5c944523df78
+    engine: gotpl
+    home: http://www.neunn.com
+    icon: http://orvjyath1.bkt.clouddn.com/postgresql.png
+    maintainers:
+    - email: wang-x@neunn.com
+      name: www.neunn.com
+    name: postgresql-service-broker
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/postgresql-service-broker-0.0.1.tgz
+    version: 0.0.1
 generated: 2016-11-18T15:05:51.077257234-07:00
