@@ -8,9 +8,7 @@ entries:
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
-    - mysql
     - database
-    - sql
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
@@ -30,9 +28,8 @@ entries:
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
-    - redis
-    - keyvalue
     - database
+    - cache
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
@@ -50,9 +47,7 @@ entries:
     home: https://www.rabbitmq.com
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
     keywords:
-    - rabbitmq
     - message queue
-    - AMQP
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
@@ -69,6 +64,9 @@ entries:
     engine: gotpl
     home: https://www.rabbitmq.com
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - message queue
+    - cluster
     maintainers:
     - email: tianh@neunn.com
       name: www.neunn.com
@@ -87,7 +85,6 @@ entries:
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
-    - mysql
     - database
     - cluster
     maintainers:
@@ -110,9 +107,9 @@ entries:
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
-    - redis
-    - keyvalue
+    - cache
     - database
+    - cluster
     maintainers:
     - email: dengfz@neunn.com
       name: www.neunn.com
@@ -129,6 +126,8 @@ entries:
     engine: gotpl
     home: http://www.neunn.com
     icon: http://orvjyath1.bkt.clouddn.com/oracle.jpg
+    keywords:
+    - servicebroker
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
@@ -145,6 +144,9 @@ entries:
     engine: gotpl
     home: https://github.com/kubernetes-incubator/service-catalog
     icon: http://orvjyath1.bkt.clouddn.com/catalog.png
+    keywords:
+    - middleware
+    - servicebroker
     maintainers:
     - email: zhaozy@neunn.com
       name: www.neunn.com
@@ -162,6 +164,11 @@ entries:
     digest: b5c1ef48610bcd2e177b4b4294bacecc83be9983b668118e21fdf2fccab6f5e3
     home: https://github.com/coreos/etcd-operator
     icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    keywords:
+    - keyvalue
+    - database
+    - cluster
+    - storage
     maintainers:
     - email: chance.zibolski@coreos.com
       name: chancez
@@ -181,6 +188,8 @@ entries:
     digest: de601f7289e07331619eb7a5ea3c21d7c1aef18f403a387e08bfcc68107bdfc5
     home: http://www.neunn.com
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - middleware
     maintainers:
     - email: zhaozy@neunn.com
       name: zhaozy
@@ -198,6 +207,8 @@ entries:
     digest: 9d875a2d6ca40d124ea030e6e8c7c6e43aab230efa3a24ca5d8f142b63614ee2
     home: http://www.neunn.com
     icon: http://tomcat.apache.org/images/tomcat.png
+    keywords:
+    - middleware
     maintainers:
     - email: zhaozy@neunn.com
       name: zhaozy
@@ -215,6 +226,8 @@ entries:
     digest: a394f2ddb13ac9d836c3668917b883838708653f6f51fd2d1ab27cb4c16acb85
     home: http://www.neunn.com
     icon: http://www.apache.org/img/asf_logo.png
+    keywords:
+    - middleware
     maintainers:
     - email: zhaozy@neunn.com
       name: zhaozy
@@ -232,6 +245,10 @@ entries:
     digest: 91b86744481c6ef2148eeed6c9283e05b93385518c46c0d68f9e0ac5355129ee
     home: https://github.com/compassorg/repository
     icon: http://logonoid.com/images/thumbs/memcached-logo.png
+    keywords:
+    - cache
+    - database
+    - cluster
     maintainers:
     - email: zhaozy@neunn.com
       name: zhaozy
@@ -248,6 +265,8 @@ entries:
     engine: gotpl
     home: http://www.neunn.com
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - servicebroker
     maintainers:
     - email: wang-x@neunn.com
       name: www.neunn.com
@@ -264,6 +283,8 @@ entries:
     engine: gotpl
     home: http://www.neunn.com
     icon: http://orvjyath1.bkt.clouddn.com/postgresql.png
+    keywords:
+    - servicebroker
     maintainers:
     - email: wang-x@neunn.com
       name: www.neunn.com
@@ -280,6 +301,8 @@ entries:
     engine: gotpl
     home: http://www.neunn.com
     icon: http://orvjyath1.bkt.clouddn.com/mongodb-logo.jpg
+    keywords:
+    - servicebroker
     maintainers:
     - email: wang-x@neunn.com
       name: www.neunn.com
@@ -296,6 +319,8 @@ entries:
     engine: gotpl
     home: http://www.neunn.com
     icon: http://orvjyath1.bkt.clouddn.com/db2_logo_image.png
+    keywords:
+    - servicebroker
     maintainers:
     - email: wang-x@neunn.com
       name: www.neunn.com
