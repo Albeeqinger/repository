@@ -330,4 +330,23 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/db2-service-broker-0.0.1.tgz
     version: 0.0.1
+  spring-cloud-suyan:
+  - apiVersion: v1
+    created: 2017-08-18T02:30:32.946556105-04:00
+    description: spring cloud suyan microservice deployment Helm chart.
+    digest: 6ffd96bd495d6f5218dfe807811c1b0fff7c186d466fd712af038379f6a913d2
+    engine: gotpl
+    home: http://www.neunn.com
+    icon: http://orvjyath1.bkt.clouddn.com/spring-cloud.png
+    keywords:
+    - spring-cloud
+    maintainers:
+    - email: wang-x@neunn.com
+      name: www.neunn.com
+    name: spring-cloud-suyan
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
+    version: 0.0.1
 generated: 2016-11-18T15:05:51.077257234-07:00
