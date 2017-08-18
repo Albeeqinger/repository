@@ -330,23 +330,4 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/db2-service-broker-0.0.1.tgz
     version: 0.0.1
-  tomcat:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-08-18T11:39:51.819999548+08:00
-    description: Tomcat Helm chart for Kubernetes
-    digest: 2305d779d11892c1ca2246391afc706a5adcca6d99b807d17e547f786dd8e487
-    home: http://www.neunn.com
-    icon: http://tomcat.apache.org/images/tomcat.png
-    keywords:
-    - middleware
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
-    name: tomcat
-    sources:
-    - http://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/tomcat-0.4.2.tgz
-    version: 0.4.2
 generated: 2016-11-18T15:05:51.077257234-07:00
