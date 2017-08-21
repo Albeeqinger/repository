@@ -349,4 +349,17 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
     version: 0.0.1
+  activemq-cluster:
+  - created: 2017-08-20T23:48:27.317338212-04:00
+    description: Activemq cluster
+    digest: 4ee2ca9e8fa4d11af9f8a5bc47f70a9699e7a008c8043e4d4417b76282933b72
+    engine: gotpl
+    icon: http://activemq.apache.org/images/avtivemq-logo.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: Tianh
+    name: activemq-cluster
+    urls:
+    - http://192.168.250.49:8003/charts/activemq-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
