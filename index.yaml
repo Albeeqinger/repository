@@ -493,4 +493,19 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
     version: 1.0.0
+  memagent:
+  - created: 2017-08-24T16:06:34.030342144+08:00
+    description: Memagent 通过代理 Memcached 来实现集群通信。
+    digest: 44ce6dc1e41800b234558fe512a39c79503f61bdd7917b265293c72e69ed6c99
+    engine: gotpl
+    icon: http://orvjyath1.bkt.clouddn.com/imgproxy.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: www.neunn.com
+    name: memagent
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/memagent-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
