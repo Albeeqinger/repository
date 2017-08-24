@@ -454,4 +454,17 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/websphere-1.0.0.tgz
     version: 1.0.0
+  kibana:
+  - created: 2017-08-24T15:56:19.267352385+08:00
+    description: Kibana是一个开源的分析与可视化平台
+    digest: 77d65daefc76b9846b69993be6df91a7f11d500d562fa7256f21e0cb0e87ad53
+    engine: gotpl
+    icon: http://orvjyath1.bkt.clouddn.com/kibana.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: Tianh
+    name: kibana
+    urls:
+    - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
