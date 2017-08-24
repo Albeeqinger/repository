@@ -480,4 +480,17 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
     version: 2.4.1
+  fluentd:
+  - created: 2017-08-24T16:03:02.258547502+08:00
+    description: fluentd
+    digest: a120a7e1e57eb74218fb1f9722ec9a3bb35314beecd86503666702475533e186
+    engine: gotpl
+    icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: Tianh
+    name: fluentd
+    urls:
+    - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
