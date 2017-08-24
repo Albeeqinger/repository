@@ -467,4 +467,17 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
+  elasticsearch-cluster:
+  - created: 2017-08-24T16:00:40.820845419+08:00
+    description: Elasticsearch cluster
+    digest: 44adbfb57b1d1fae337ea766dc0738abadd33b49427feec1904e8bc539294128
+    engine: gotpl
+    icon: http://orvjyath1.bkt.clouddn.com/es.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: Tianh
+    name: elasticsearch-cluster
+    urls:
+    - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
+    version: 2.4.1
 generated: 2016-11-18T15:05:51.077257234-07:00
