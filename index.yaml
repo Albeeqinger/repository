@@ -487,4 +487,27 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/memagent-1.0.0.tgz
     version: 1.0.0
+  kafka:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2017-08-24T16:28:10.800407603+08:00
+    description: 一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者规模的网站中的所有动作流数据。
+    digest: 3740c8f28bbdf51c16aee85d8ddaaf602bc3c3e57fa8565b4c83e1bc82c26d1a
+    engine: gotpl
+    home: http://kafka.apache.org/
+    icon: http://kafka.apache.org/images/logo.png
+    keywords:
+    - Kafka
+    - Broker
+    - Topic
+    - cluster
+    maintainers:
+    - email: dengfz@neunn.com
+      name: www.neunn.com
+    name: kafka
+    sources:
+    - https://github.com/apache/kafka
+    urls:
+    - http://192.168.250.49:8003/charts/kafka-0.1.0.tgz
+    version: 0.1.0
 generated: 2016-11-18T15:05:51.077257234-07:00
