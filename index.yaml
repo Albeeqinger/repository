@@ -350,9 +350,9 @@ entries:
     - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
     version: 0.0.1
   activemq-cluster:
-  - created: 2017-08-21T01:42:32.835480593-04:00
+  - created: 2017-08-24T15:49:21.042689454+08:00
     description: Activemq cluster
-    digest: c9c90c600bdfd4fe222c9dcdc4d825874cd053cc6c84099468c0b51f7f74e997
+    digest: a9249f3b47e864cfa641c40a6eed84b1d3221f942587eb89a57f29477e8601c7
     engine: gotpl
     icon: http://activemq.apache.org/images/activemq-logo.png
     maintainers:
