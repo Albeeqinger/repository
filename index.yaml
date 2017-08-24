@@ -426,4 +426,19 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/zookeeper-0.1.0.tgz
     version: 0.1.0
+  memcached-cluster:
+  - created: 2017-08-24T15:38:59.071367503+08:00
+    description: Memcached 是一个高性能的分布式内存对象缓存系统，用于动态Web应用以减轻数据库负载。
+    digest: 256d17e5cebf9e3dda2057dbe0f438b1489de36fec7f72eefc36b297488cdc43
+    engine: gotpl
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    maintainers:
+    - email: tianh@neunn.com
+      name: www.neunn.com
+    name: memcached-cluster
+    sources:
+    - https://www.neunn.com
+    urls:
+    - http://192.168.250.49:8003/charts/memcached-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
