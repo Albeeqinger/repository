@@ -329,10 +329,11 @@ entries:
     - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
     version: 0.0.1
   activemq-cluster:
-  - created: 2017-08-24T17:18:07.978512736+08:00
+  - created: 2017-08-24T17:28:35.065016172+08:00
     description: Activemq cluster
-    digest: e0d3316218b3a18d2a6a56de3a19d7af898d98e5fecac522ac4061ed8fda00e6
+    digest: b561205f0606ca8a42aad72ff6ffec74feea0ccb7e8a988f0e36fbd4a9339dbd
     engine: gotpl
+    home: http://activemq.apache.org/
     icon: http://activemq.apache.org/images/activemq-logo.png
     keywords:
     - message queue
@@ -341,6 +342,8 @@ entries:
     - email: tianh@neunn.com
       name: www.neunn.com
     name: activemq-cluster
+    sources:
+    - https://github.com/kubernetes/charts
     urls:
     - http://192.168.250.49:8003/charts/activemq-cluster-1.0.0.tgz
     version: 1.0.0
