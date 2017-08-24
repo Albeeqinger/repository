@@ -237,27 +237,6 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/apache-0.4.2.tgz
     version: 0.4.2
-  memcached-master:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-07-28T16:43:01.794972031+08:00
-    description: Memcached-master Helm chart for Kubernetes
-    digest: 91b86744481c6ef2148eeed6c9283e05b93385518c46c0d68f9e0ac5355129ee
-    home: https://github.com/compassorg/repository
-    icon: http://logonoid.com/images/thumbs/memcached-logo.png
-    keywords:
-    - cache
-    - database
-    - cluster
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
-    name: memcached-master
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - http://192.168.250.49:8003/charts/memcached-master-0.1.0.tgz
-    version: 0.1.0
   mysql-service-broker:
   - created: 2017-08-07T13:35:38.107392551+08:00
     description: user-provided mysql-service-broker deployment Helm chart.
