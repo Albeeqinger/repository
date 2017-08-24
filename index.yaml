@@ -404,4 +404,26 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/weblogic-0.1.0.tgz
     version: 0.1.0
+  zookeeper:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2017-08-24T15:20:57.29559148+08:00
+    description: 一个分布式的，开放源码的分布式应用程序协调服务。
+    digest: 5abc92f8e1851473ed6343a56da353b9df825ef37c82b14d18150b76eb875a97
+    engine: gotpl
+    home: https://zookeeper.apache.org/
+    icon: http://zookeeper.apache.org/images/zookeeper_small.gif
+    keywords:
+    - zookeeper
+    - Fast Paxos
+    - cluster
+    maintainers:
+    - email: dengfz@neunn.com
+      name: www.neunn.com
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    urls:
+    - http://192.168.250.49:8003/charts/zookeeper-0.1.0.tgz
+    version: 0.1.0
 generated: 2016-11-18T15:05:51.077257234-07:00
