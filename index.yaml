@@ -221,9 +221,9 @@ entries:
   apache:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-07-21T11:47:43.697549678+08:00
+    created: 2017-08-25T14:10:03.916605824+08:00
     description: Apache Helm chart for Kubernetes
-    digest: a394f2ddb13ac9d836c3668917b883838708653f6f51fd2d1ab27cb4c16acb85
+    digest: ed2c62274f502c075f69bbbb6e9beefb99424dc23afd5a1ba4c9f7459b179947
     home: http://www.neunn.com
     icon: http://www.apache.org/img/asf_logo.png
     keywords:
