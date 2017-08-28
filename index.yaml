@@ -433,14 +433,17 @@ entries:
     - http://192.168.250.49:8003/charts/memcached-cluster-1.0.0.tgz
     version: 1.0.0
   websphere:
-  - created: 2017-08-24T15:43:10.884136924+08:00
+  - created: 2017-08-28T14:22:15.488649021+08:00
     description: WebSphere 是 IBM 的软件平台。它包含了编写、运行和监视全天候的工业强度的随需应变 Web 应用程序和跨平台、跨产品解决方案所需要的整个中间件基础设施，如服务器、服务和工具。
-    digest: 88bb980772dab14120066353dfa448584c3a556306d50a4f499b4b2af05c6e3d
+    digest: 52bfd407c8487a0b2e0c585117201dfb2149e5bf7fff33b7f43c5db66fc70047
     engine: gotpl
     icon: http://www.midvision.com/hubfs/ir_attachment_442.jpeg
+    keywords:
+    - websphere
+    - middleware
     maintainers:
     - email: tianh@neunn.com
-      name: Tianh
+      name: www.neunn.com
     name: websphere
     urls:
     - http://192.168.250.49:8003/charts/websphere-1.0.0.tgz
