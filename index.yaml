@@ -412,11 +412,15 @@ entries:
     - http://192.168.250.49:8003/charts/zookeeper-0.1.0.tgz
     version: 0.1.0
   memcached-cluster:
-  - created: 2017-08-24T15:53:14.512555144+08:00
+  - created: 2017-08-28T11:14:12.791446977+08:00
     description: Memcached 是一个高性能的分布式内存对象缓存系统，用于动态Web应用以减轻数据库负载。
-    digest: c6a0928d74047fe6730174da351aa07d93bbce1f152e368f77124cd087effcba
+    digest: 2e2c540a77bb0f8fcb8fed7f63cab192921d019583db4b6f73288d2b68b2c65c
     engine: gotpl
     icon: http://orvjyath1.bkt.clouddn.com/img.png
+    keywords:
+    - database
+    - cache
+    - cluster
     maintainers:
     - email: tianh@neunn.com
       name: www.neunn.com
@@ -440,50 +444,60 @@ entries:
     - http://192.168.250.49:8003/charts/websphere-1.0.0.tgz
     version: 1.0.0
   kibana:
-  - created: 2017-08-24T15:56:19.267352385+08:00
+  - created: 2017-08-28T11:12:15.236197129+08:00
     description: Kibana是一个开源的分析与可视化平台
-    digest: 77d65daefc76b9846b69993be6df91a7f11d500d562fa7256f21e0cb0e87ad53
+    digest: 6d5a53588daf2486f72cd818b508801eb4230d1d4cb93c8c2ca23a310b58fa4a
     engine: gotpl
     icon: http://orvjyath1.bkt.clouddn.com/kibana.png
+    keywords:
+    - middleware
     maintainers:
     - email: tianh@neunn.com
-      name: Tianh
+      name: www.neunn.com
     name: kibana
     urls:
     - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
   elasticsearch-cluster:
-  - created: 2017-08-24T16:00:40.820845419+08:00
+  - created: 2017-08-28T11:08:50.349004948+08:00
     description: Elasticsearch cluster
-    digest: 44adbfb57b1d1fae337ea766dc0738abadd33b49427feec1904e8bc539294128
+    digest: c981dc720dd9953064ac3412160f8ffe2561b781d7752b3120dc038effcbcb21
     engine: gotpl
     icon: http://orvjyath1.bkt.clouddn.com/es.png
+    keywords:
+    - database
+    - cluster
     maintainers:
     - email: tianh@neunn.com
-      name: Tianh
+      name: www.neunn.com
     name: elasticsearch-cluster
     urls:
     - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
     version: 2.4.1
   fluentd:
-  - created: 2017-08-24T16:03:02.258547502+08:00
+  - created: 2017-08-28T11:10:05.178955121+08:00
     description: fluentd
-    digest: a120a7e1e57eb74218fb1f9722ec9a3bb35314beecd86503666702475533e186
+    digest: b9cfa52a1a2cfdcfdc1f0fe42010ede471022a64ce9f318cfab554d7cf428bb7
     engine: gotpl
     icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo.png
+    keywords:
+    - middleware
     maintainers:
     - email: tianh@neunn.com
-      name: Tianh
+      name: www.neunn.com
     name: fluentd
     urls:
     - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
     version: 1.0.0
   memagent:
-  - created: 2017-08-24T16:06:34.030342144+08:00
+  - created: 2017-08-28T11:13:14.319746764+08:00
     description: Memagent 通过代理 Memcached 来实现集群通信。
-    digest: 44ce6dc1e41800b234558fe512a39c79503f61bdd7917b265293c72e69ed6c99
+    digest: a8a27e18587ccb593794144dd4274b2a9afbebbcf28647fd4b3d84a317ddcb79
     engine: gotpl
     icon: http://orvjyath1.bkt.clouddn.com/imgproxy.png
+    keywords:
+    - database
+    - cache
     maintainers:
     - email: tianh@neunn.com
       name: www.neunn.com
@@ -496,9 +510,9 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-08-24T16:28:10.800407603+08:00
+    created: 2017-08-28T11:11:10.846674966+08:00
     description: 一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者规模的网站中的所有动作流数据。
-    digest: 3740c8f28bbdf51c16aee85d8ddaaf602bc3c3e57fa8565b4c83e1bc82c26d1a
+    digest: 19ad73df6106973ed219a2e9333d87c4b761934f8d0645a25648a3917618b9cf
     engine: gotpl
     home: http://kafka.apache.org/
     icon: http://kafka.apache.org/images/logo.png
@@ -507,6 +521,7 @@ entries:
     - Broker
     - Topic
     - cluster
+    - message queue
     maintainers:
     - email: dengfz@neunn.com
       name: www.neunn.com
