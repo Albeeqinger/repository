@@ -502,20 +502,21 @@ entries:
     - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
     version: 1.0.0
   memagent:
-  - created: 2017-08-28T11:13:14.319746764+08:00
+  - created: 2017-09-11T14:11:46.936984103+08:00
     description: Memagent 通过代理 Memcached 来实现集群通信。
-    digest: a8a27e18587ccb593794144dd4274b2a9afbebbcf28647fd4b3d84a317ddcb79
+    digest: 6c12c19cbbf8e37ecb45076a46f9f24ceea45bb81b81acfe39b982bfd2b56b3e
     engine: gotpl
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/imgproxy.png
     keywords:
     - database
     - cache
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: memagent
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/memagent-1.0.0.tgz
     version: 1.0.0
