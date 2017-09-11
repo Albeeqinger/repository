@@ -293,20 +293,20 @@ entries:
     - http://192.168.250.49:8003/charts/mongodb-service-broker-0.0.1.tgz
     version: 0.0.1
   db2-service-broker:
-  - created: 2017-08-07T13:53:10.131834325+08:00
+  - created: 2017-09-11T13:48:37.50854196+08:00
     description: user-provided db2-service-broker deployment Helm chart.
-    digest: afa9702a28ca85b625c94b24a9166175c1620608afc302eb1903800450e05bdc
+    digest: cf661d82fd1715d355cd29b77d902abc2bce34b8984ee5953ef564d0a758b7a6
     engine: gotpl
-    home: http://www.neunn.com
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/db2_logo_image.png
     keywords:
     - servicebroker
     maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: db2-service-broker
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/db2-service-broker-0.0.1.tgz
     version: 0.0.1
