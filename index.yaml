@@ -160,10 +160,10 @@ entries:
   etcd-operator:
   - apiVersion: v1
     appVersion: 0.3.3
-    created: 2017-07-20T14:31:30.156675427+08:00
+    created: 2017-09-11T13:58:42.631732891+08:00
     description: CoreOS etcd-operator Helm chart for Kubernetes
-    digest: b5c1ef48610bcd2e177b4b4294bacecc83be9983b668118e21fdf2fccab6f5e3
-    home: https://github.com/coreos/etcd-operator
+    digest: e2b5eb6e8ac7ed2e9a24c345f4ab214ec676f06536b9b000cf38e500ecc851a7
+    home: http://cmsoft.10086.cn/
     icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
     keywords:
     - keyvalue
@@ -171,13 +171,11 @@ entries:
     - cluster
     - storage
     maintainers:
-    - email: chance.zibolski@coreos.com
-      name: chancez
-    - email: lachlan@deis.com
-      name: lachie83
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: etcd-operator
     sources:
-    - https://github.com/coreos/etcd-operator
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/etcd-operator-0.4.2.tgz
     version: 0.4.2
