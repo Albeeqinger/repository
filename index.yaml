@@ -39,20 +39,20 @@ entries:
     - http://192.168.250.49:8003/charts/redis-0.7.1.tgz
     version: 0.7.1
   rabbitmq:
-  - created: 2017-06-22T19:23:19.316266337+08:00
+  - created: 2017-09-11T14:56:10.065954903+08:00
     description: 开源的实现了消息队列协议的高级消息中间件 (AMQP)
-    digest: 92dd2ff2229f986b93e71af061f6667582a281fa751cec3bcf561d4bc4415c27
+    digest: 322dceb645904cbc6e656ee9d503102225ae1af78df771ff4ebc0c3442c2fe7d
     engine: gotpl
-    home: https://www.rabbitmq.com
+    home: http://cmsoft.10086.cn/
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
     keywords:
     - message queue
     maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: rabbitmq
     sources:
-    - https://github.com/bitnami/bitnami-docker-rabbitmq
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/rabbitmq-0.5.3.tgz
     version: 0.5.3
