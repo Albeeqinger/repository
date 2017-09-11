@@ -273,20 +273,20 @@ entries:
     - http://192.168.250.49:8003/charts/postgresql-service-broker-0.0.1.tgz
     version: 0.0.1
   mongodb-service-broker:
-  - created: 2017-08-07T13:56:40.342754668+08:00
+  - created: 2017-09-11T14:22:07.91039841+08:00
     description: user-provided mongodb-service-broker deployment Helm chart.
-    digest: 4fca6555687519d90886089504796694993082d1925ee4aede484fb3bd6f02e0
+    digest: 439139d5194425421f2ecade89259f0c246d6d4d5e97e13b2a56bb44f3fbdf9c
     engine: gotpl
-    home: http://www.neunn.com
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/mongodb-logo.jpg
     keywords:
     - servicebroker
     maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: mongodb-service-broker
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/mongodb-service-broker-0.0.1.tgz
     version: 0.0.1
