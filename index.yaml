@@ -447,17 +447,20 @@ entries:
     - http://192.168.250.49:8003/charts/websphere-1.0.0.tgz
     version: 1.0.0
   kibana:
-  - created: 2017-08-28T11:12:15.236197129+08:00
+  - created: 2017-09-11T14:07:47.09557239+08:00
     description: Kibana是一个开源的分析与可视化平台
-    digest: 6d5a53588daf2486f72cd818b508801eb4230d1d4cb93c8c2ca23a310b58fa4a
+    digest: 2bf23651aec52d9efead2a651b24e7647c23c6374300b8edfb05807bba6a057e
     engine: gotpl
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/kibana.png
     keywords:
     - middleware
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: kibana
+    sources:
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
