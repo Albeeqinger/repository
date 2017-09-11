@@ -57,21 +57,20 @@ entries:
     - http://192.168.250.49:8003/charts/rabbitmq-0.5.3.tgz
     version: 0.5.3
   rabbitmq-cluster:
-  - created: 2017-06-23T19:52:13.266009522+08:00
+  - created: 2017-09-11T14:58:38.705194489+08:00
     description: RabbitMQ是一个在AMQP基础上完成的，可复用的企业消息系统。
-    digest: 39ffaf2325ba0a9e9e38cf18ec108416001df278f375f6b1107c825e2577aadd
+    digest: b30990e6d3d3527ba5b25982d12b71a1e23cd370d88d7374bfb90ef3f3a579fd
     engine: gotpl
-    home: https://www.rabbitmq.com
+    home: http://cmsoft.10086.cn/
     icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
     keywords:
     - message queue
-    - cluster
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: rabbitmq-cluster
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/rabbitmq-cluster-3.6.6.tgz
     version: 3.6.6
