@@ -412,21 +412,22 @@ entries:
     - http://192.168.250.49:8003/charts/zookeeper-0.1.0.tgz
     version: 0.1.0
   memcached-cluster:
-  - created: 2017-08-28T11:14:12.791446977+08:00
+  - created: 2017-09-11T14:15:35.916246574+08:00
     description: Memcached 是一个高性能的分布式内存对象缓存系统，用于动态Web应用以减轻数据库负载。
-    digest: 2e2c540a77bb0f8fcb8fed7f63cab192921d019583db4b6f73288d2b68b2c65c
+    digest: ccb88db89448028ff36442f79ac180f4c39999918f8c8a7ba8ff906780bbb9cc
     engine: gotpl
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/img.png
     keywords:
     - database
     - cache
     - cluster
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: memcached-cluster
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/memcached-cluster-1.0.0.tgz
     version: 1.0.0
