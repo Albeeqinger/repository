@@ -1,21 +1,20 @@
 apiVersion: v1
 entries:
   mysql:
-  - created: 2017-06-22T17:58:37.241236833+08:00
+  - created: 2017-09-11T14:27:15.471607233+08:00
     description: 快速的, 可靠的, 扩展的, 易于使用的开放源码的关系数据库系统.
-    digest: ec54eba1dfb6833a3cb7ad43a53abb3c55f070e7714946aa699144c7a0ced51d
+    digest: b9f4af37fd3a7b199b94ff53c8e6be8860a5627aec62ce98857f9ebb3ee9fbdd
     engine: gotpl
-    home: https://www.mysql.com/
+    home: http://cmsoft.10086.cn/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
     - database
     maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: mysql
     sources:
-    - https://github.com/kubernetes/charts
-    - https://github.com/docker-library/mysql
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/mysql-0.2.6.tgz
     version: 0.2.6
