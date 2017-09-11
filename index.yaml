@@ -199,19 +199,19 @@ entries:
   tomcat:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-07-21T10:29:19.899028457+08:00
+    created: 2017-09-11T16:48:00.321307295+08:00
     description: Tomcat Helm chart for Kubernetes
-    digest: 9d875a2d6ca40d124ea030e6e8c7c6e43aab230efa3a24ca5d8f142b63614ee2
-    home: http://www.neunn.com
+    digest: 9fe350c8342efca5d4bc69c5fed6a1717a2d87c5df5afa7071c36a6c60e89c44
+    home: http://cmsoft.10086.cn/
     icon: http://tomcat.apache.org/images/tomcat.png
     keywords:
     - middleware
     maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: tomcat
     sources:
-    - http://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/tomcat-0.4.2.tgz
     version: 0.4.2
