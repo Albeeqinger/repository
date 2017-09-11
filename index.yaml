@@ -519,11 +519,11 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-08-28T11:11:10.846674966+08:00
+    created: 2017-09-11T14:05:16.455601054+08:00
     description: 一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者规模的网站中的所有动作流数据。
-    digest: 19ad73df6106973ed219a2e9333d87c4b761934f8d0645a25648a3917618b9cf
+    digest: d443a59f29ff43d8b89bd0eef279fcce8e7300a48f25bf28afea573d5a4b0e45
     engine: gotpl
-    home: http://kafka.apache.org/
+    home: http://cmsoft.10086.cn/
     icon: http://kafka.apache.org/images/logo.png
     keywords:
     - Kafka
@@ -532,11 +532,11 @@ entries:
     - cluster
     - message queue
     maintainers:
-    - email: dengfz@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: kafka
     sources:
-    - https://github.com/apache/kafka
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/kafka-0.1.0.tgz
     version: 0.1.0
