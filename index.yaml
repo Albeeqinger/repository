@@ -181,19 +181,19 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-07-21T09:45:09.439687918+08:00
+    created: 2017-09-11T14:37:10.727494339+08:00
     description: Nginx Helm chart for Kubernetes
-    digest: de601f7289e07331619eb7a5ea3c21d7c1aef18f403a387e08bfcc68107bdfc5
-    home: http://www.neunn.com
+    digest: 2175aceb4a66b134769e7e037a21de75e5e5f42658ae97f9102b9efe0f9b5faa
+    home: http://cmsoft.10086.cn/
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - middleware
     maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: nginx
     sources:
-    - http://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/nginx-0.4.2.tgz
     version: 0.4.2
