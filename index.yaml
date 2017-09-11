@@ -236,20 +236,20 @@ entries:
     - http://192.168.250.49:8003/charts/apache-0.4.2.tgz
     version: 0.4.2
   mysql-service-broker:
-  - created: 2017-08-07T13:35:38.107392551+08:00
+  - created: 2017-09-11T14:33:57.346566742+08:00
     description: user-provided mysql-service-broker deployment Helm chart.
-    digest: bc5ce4c4b6569db6f4064cd22e72aa968961ea5a6ea9cf182a56133c5795e1fc
+    digest: 6b8a4571d14ec783a740350f121eb9db624038c89ca2eecabdbb66c1c7c3f6b8
     engine: gotpl
-    home: http://www.neunn.com
-    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    home: http://cmsoft.10086.cn/
+    icon: http://orvjyath1.bkt.clouddn.com/mysql-logo.svg
     keywords:
     - servicebroker
     maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: mysql-service-broker
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/mysql-service-broker-0.0.1.tgz
     version: 0.0.1
