@@ -348,23 +348,22 @@ entries:
     version: 1.0.0
   postgresql-cluster:
   - apiVersion: v1
-    created: 2017-08-23T15:53:05.800516444+08:00
+    created: 2017-09-11T14:51:00.337377684+08:00
     description: 基于PostgreSQL数据库的横向扩展数据库集群，具有足够的灵活性来处理不同的数据库工作负载
-    digest: 4283d36be2ced4741af453c610705240fe401b25dad1b384a355eb1a64ff89d1
+    digest: 88d5b0e862cd157caae0086d1da743997a4ae553b5a2c7f84db8739ee6b06504
     engine: gotpl
-    home: https://www.postgresql.org/
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/postgresql.png
     keywords:
     - postgresql
     - database
     - cluster
     maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: postgresql-cluster
     sources:
-    - https://github.com/kubernetes/helm
-    - https://github.com/kubespray/k8s-postgres
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/postgresql-cluster-0.1.0.tgz
     version: 0.1.0
