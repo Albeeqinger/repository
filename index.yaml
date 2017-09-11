@@ -139,21 +139,21 @@ entries:
     - http://192.168.250.49:8003/charts/oracle-service-broker-0.0.2.tgz
     version: 0.0.2
   catalog:
-  - created: 2017-06-28T09:30:54.994832011+08:00
+  - created: 2017-09-11T11:56:17.459139326+08:00
     description: service-catalog API server and controller-manager helm chart
-    digest: 6e05d5b98c8ce243c9ccd68281822ea3ba35c8b37ef3b9edd37d31fc5afee420
+    digest: f94a64cd426349a274a03a56e3c4b4c5c969d932d2c27abc45d2dafd1c5fb71d
     engine: gotpl
-    home: https://github.com/kubernetes-incubator/service-catalog
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/catalog.png
     keywords:
     - middleware
     - servicebroker
     maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: catalog
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/catalog-0.0.1.tgz
     version: 0.0.1
