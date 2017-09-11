@@ -368,21 +368,21 @@ entries:
     version: 0.1.0
   weblogic:
   - apiVersion: v1
-    created: 2017-08-23T15:53:05.805446158+08:00
+    created: 2017-09-11T16:50:54.57284474+08:00
     description: 拥有处理关键Web应用系统问题所需的性能、可扩展性和高可用性。
-    digest: 81997b9298fb302c989cde995f3a30be68efa213b6102a16c99a85609013a914
+    digest: e56cc61a15bba6c9fecb6100649eae5d908bbce61b7d0d05a71c1ae014be274b
     engine: gotpl
-    home: https://www.oracle.com/index.html
+    home: http://cmsoft.10086.cn/
     icon: http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/352606.gif
     keywords:
     - weblogic
     - middleware
     maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: weblogic
     sources:
-    - https://github.com/oracle/docker-images/tree/master/OracleWebLogic
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/weblogic-0.1.0.tgz
     version: 0.1.0
