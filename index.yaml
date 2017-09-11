@@ -464,18 +464,21 @@ entries:
     - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
   elasticsearch-cluster:
-  - created: 2017-08-28T11:08:50.349004948+08:00
+  - created: 2017-09-11T13:55:43.759493711+08:00
     description: Elasticsearch cluster
-    digest: c981dc720dd9953064ac3412160f8ffe2561b781d7752b3120dc038effcbcb21
+    digest: 6bac69097a013353f538df6a85e9bef0285c63e35121a2724aed2f076dbb067b
     engine: gotpl
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/es.png
     keywords:
     - database
     - cluster
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: elasticsearch-cluster
+    sources:
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
     version: 2.4.1
