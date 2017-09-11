@@ -98,11 +98,11 @@ entries:
   redis-cluster:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2017-08-28T14:04:03.323402462+08:00
+    created: 2017-09-11T16:41:16.350053162+08:00
     description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
-    digest: 377c310a389d63f4a5e7eb537425787d518cabe7aad8af2fd2621b755eb2c09d
+    digest: 9b75999c7f4645ea07739a420cca51cdf0ad54ed416a00c280af62b7de3e7905
     engine: gotpl
-    home: http://redis.io/
+    home: http://cmsoft.10086.cn/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
     - redis
@@ -110,11 +110,11 @@ entries:
     - database
     - cluster
     maintainers:
-    - email: dengfz@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: redis-cluster
     sources:
-    - https://github.com/bitnami/bitnami-docker-redis
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/redis-cluster-0.1.0.tgz
     version: 0.1.0
