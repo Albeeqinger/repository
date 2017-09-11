@@ -308,21 +308,21 @@ entries:
     version: 0.0.1
   spring-cloud-suyan:
   - apiVersion: v1
-    created: 2017-08-28T14:11:06.729929341+08:00
+    created: 2017-09-11T16:45:10.081572856+08:00
     description: spring cloud suyan microservice deployment Helm chart.
-    digest: 0faaa91b69a14109d17c10d2c064a9f762471ae6b384d937f9dad803a7427fed
+    digest: 16d467dc1ae19d77e62be4063cafab59795738228d3c537a10a0d532c6214767
     engine: gotpl
-    home: http://www.neunn.com
+    home: http://cmsoft.10086.cn/
     icon: http://orvjyath1.bkt.clouddn.com/spring-cloud.png
     keywords:
     - spring-cloud
     - middleware
     maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: spring-cloud-suyan
     sources:
-    - https://www.neunn.com
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
     version: 0.0.1
