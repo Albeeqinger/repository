@@ -77,22 +77,22 @@ entries:
     version: 3.6.6
   mysql-cluster:
   - apiVersion: v1
-    created: 2017-06-23T20:43:30.68154573+08:00
+    created: 2017-09-11T14:29:51.195093598+08:00
     description: 负载平衡、数据备份以及高可用性和容错性，是构建大型，高性能应用程序的基础。
-    digest: f3d4838a9430a98fcf8824963b84565cd9e6abea256146478222e8d79123e2cb
+    digest: 210a6d80f63b3585487848b24eec194b3c0f6ddcaaec0951e253c618a599d12e
     engine: gotpl
-    home: https://www.mysql.com/
+    home: http://cmsoft.10086.cn/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
+    - mysql
     - database
     - cluster
     maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: mysql-cluster
     sources:
-    - https://github.com/kubernetes/charts
-    - https://github.com/kublr/k8s-mysql-replica
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/mysql-cluster-0.1.0.tgz
     version: 0.1.0
