@@ -481,17 +481,20 @@ entries:
     - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
     version: 2.4.1
   fluentd:
-  - created: 2017-08-28T11:10:05.178955121+08:00
+  - created: 2017-09-11T14:02:08.820846686+08:00
     description: fluentd
-    digest: b9cfa52a1a2cfdcfdc1f0fe42010ede471022a64ce9f318cfab554d7cf428bb7
+    digest: 64838bdad97ab98aa189b184ec2152ebf2b1802b235b7d4f2bf2a81ebcbb2ce3
     engine: gotpl
+    home: http://cmsoft.10086.cn/
     icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo.png
     keywords:
     - middleware
     maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
     name: fluentd
+    sources:
+    - http://cmsoft.10086.cn/
     urls:
     - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
     version: 1.0.0
