@@ -1,539 +1,81 @@
 apiVersion: v1
 entries:
-  mysql:
-  - created: 2017-06-22T17:58:37.241236833+08:00
-    description: 快速的, 可靠的, 扩展的, 易于使用的开放源码的关系数据库系统.
-    digest: ec54eba1dfb6833a3cb7ad43a53abb3c55f070e7714946aa699144c7a0ced51d
-    engine: gotpl
-    home: https://www.mysql.com/
-    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
-    keywords:
-    - database
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
-    name: mysql
-    sources:
-    - https://github.com/kubernetes/charts
-    - https://github.com/docker-library/mysql
-    urls:
-    - http://192.168.250.49:8003/charts/mysql-0.2.6.tgz
-    version: 0.2.6
-  redis:
-  - appVersion: 3.2.9
-    created: 2017-06-22T19:23:13.992065813+08:00
-    description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
-    digest: 684102350000547b9b88f032ed433b986184a5be06cb7ba7433e1aca88672f6f
-    engine: gotpl
-    home: http://redis.io/
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - database
-    - cache
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
-    name: redis
-    sources:
-    - https://github.com/bitnami/bitnami-docker-redis
-    urls:
-    - http://192.168.250.49:8003/charts/redis-0.7.1.tgz
-    version: 0.7.1
-  rabbitmq:
-  - created: 2017-06-22T19:23:19.316266337+08:00
-    description: 开源的实现了消息队列协议的高级消息中间件 (AMQP)
-    digest: 92dd2ff2229f986b93e71af061f6667582a281fa751cec3bcf561d4bc4415c27
-    engine: gotpl
-    home: https://www.rabbitmq.com
-    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
-    keywords:
-    - message queue
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
-    name: rabbitmq
-    sources:
-    - https://github.com/bitnami/bitnami-docker-rabbitmq
-    urls:
-    - http://192.168.250.49:8003/charts/rabbitmq-0.5.3.tgz
-    version: 0.5.3
-  rabbitmq-cluster:
-  - created: 2017-06-23T19:52:13.266009522+08:00
-    description: RabbitMQ是一个在AMQP基础上完成的，可复用的企业消息系统。
-    digest: 39ffaf2325ba0a9e9e38cf18ec108416001df278f375f6b1107c825e2577aadd
-    engine: gotpl
-    home: https://www.rabbitmq.com
-    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
-    keywords:
-    - message queue
-    - cluster
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: rabbitmq-cluster
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/rabbitmq-cluster-3.6.6.tgz
-    version: 3.6.6
   mysql-cluster:
-  - apiVersion: v1
-    created: 2017-06-23T20:43:30.68154573+08:00
-    description: 负载平衡、数据备份以及高可用性和容错性，是构建大型，高性能应用程序的基础。
-    digest: f3d4838a9430a98fcf8824963b84565cd9e6abea256146478222e8d79123e2cb
+  - created: 2017-10-25T04:42:58.794341247-04:00
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: fba511e0e191c10941718ddb91a66c326d348215e2449b27f5d26ea8c73e21b8
     engine: gotpl
-    home: https://www.mysql.com/
-    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-mysql.png
     keywords:
+    - mysql
     - database
     - cluster
     maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
+    - email: hor-team@neunn.com
+      name: hor-team
     name: mysql-cluster
     sources:
-    - https://github.com/kubernetes/charts
-    - https://github.com/kublr/k8s-mysql-replica
+    - https://github.com/compassorg/repository
     urls:
-    - http://192.168.250.49:8003/charts/mysql-cluster-0.1.0.tgz
-    version: 0.1.0
+    - http://10.2.16.4:8003/charts/mysql-cluster-1.0.0.tgz
+    version: 1.0.0
   redis-cluster:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-08-28T14:04:03.323402462+08:00
-    description: 开源, 高效的键值存储. 它通常被称为一个数据结构服务器可以包含字符串，哈希表，列表，集合和有序集合.
-    digest: 377c310a389d63f4a5e7eb537425787d518cabe7aad8af2fd2621b755eb2c09d
+  - created: 2017-10-25T04:43:58.552125815-04:00
+    description: Highly available Redis cluster with multiple sentinels and standbys.
+    digest: afeaf20be6433544c80d7630471e74831b3ade70088a32087a333a5c5af7428c
     engine: gotpl
-    home: http://redis.io/
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-redis.png
     keywords:
     - redis
     - keyvalue
     - database
-    - cluster
     maintainers:
-    - email: dengfz@neunn.com
-      name: www.neunn.com
+    - email: hor-team@neunn.com
+      name: hor-team
     name: redis-cluster
     sources:
-    - https://github.com/bitnami/bitnami-docker-redis
+    - https://github.com/compassorg/repository
     urls:
-    - http://192.168.250.49:8003/charts/redis-cluster-0.1.0.tgz
-    version: 0.1.0
-  oracle-service-broker:
-  - created: 2017-06-27T15:00:01.233831476+08:00
-    description: user-provided oracle-service-broker deployment Helm chart.
-    digest: 0554291fe2fef657308442782d141812756b0b51adad240aefd785588e267844
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/oracle.jpg
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
-    name: oracle-service-broker
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/oracle-service-broker-0.0.2.tgz
-    version: 0.0.2
-  catalog:
-  - created: 2017-06-28T09:30:54.994832011+08:00
-    description: service-catalog API server and controller-manager helm chart
-    digest: 6e05d5b98c8ce243c9ccd68281822ea3ba35c8b37ef3b9edd37d31fc5afee420
-    engine: gotpl
-    home: https://github.com/kubernetes-incubator/service-catalog
-    icon: http://orvjyath1.bkt.clouddn.com/catalog.png
-    keywords:
-    - middleware
-    - servicebroker
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: www.neunn.com
-    name: catalog
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/catalog-0.0.1.tgz
-    version: 0.0.1
-  etcd-operator:
-  - apiVersion: v1
-    appVersion: 0.3.3
-    created: 2017-07-20T14:31:30.156675427+08:00
-    description: CoreOS etcd-operator Helm chart for Kubernetes
-    digest: b5c1ef48610bcd2e177b4b4294bacecc83be9983b668118e21fdf2fccab6f5e3
-    home: https://github.com/coreos/etcd-operator
-    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
-    keywords:
-    - keyvalue
-    - database
-    - cluster
-    - storage
-    maintainers:
-    - email: chance.zibolski@coreos.com
-      name: chancez
-    - email: lachlan@deis.com
-      name: lachie83
-    name: etcd-operator
-    sources:
-    - https://github.com/coreos/etcd-operator
-    urls:
-    - http://192.168.250.49:8003/charts/etcd-operator-0.4.2.tgz
-    version: 0.4.2
+    - http://10.2.16.4:8003/charts/redis-cluster-1.0.0.tgz
+    version: 1.0.0
   nginx:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-07-21T09:45:09.439687918+08:00
-    description: Nginx Helm chart for Kubernetes
-    digest: de601f7289e07331619eb7a5ea3c21d7c1aef18f403a387e08bfcc68107bdfc5
-    home: http://www.neunn.com
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+  - created: 2017-10-25T04:43:52.688139613-04:00
+    description: NGINX is an open source web server and reverse proxy that excels
+      at large-scale web integration, application security, and web acceleration.
+    digest: 89f4dd7addc35c784d665697af8b166799211a36010f962c5c40e29beb4bad38
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-nginx.png
     keywords:
     - middleware
     maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
+    - email: hor-team@neunn.com
+      name: hor-team
     name: nginx
     sources:
-    - http://www.neunn.com
+    - https://github.com/compassorg/repository
     urls:
-    - http://192.168.250.49:8003/charts/nginx-0.4.2.tgz
-    version: 0.4.2
+    - http://10.2.16.4:8003/charts/nginx-1.0.0.tgz
+    version: 1.0.0
   tomcat:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-07-21T10:29:19.899028457+08:00
-    description: Tomcat Helm chart for Kubernetes
-    digest: 9d875a2d6ca40d124ea030e6e8c7c6e43aab230efa3a24ca5d8f142b63614ee2
-    home: http://www.neunn.com
-    icon: http://tomcat.apache.org/images/tomcat.png
+  - created: 2017-10-25T04:44:04.745172167-04:00
+    description: The Apache Tomcat® software is an open source implementation of the
+      Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
+      technologies.
+    digest: 1449f528041b14a4f1c6a463dccb97007d902f4865cc4512ace26508f499b9b8
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-tomcat.png
     keywords:
     - middleware
     maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
+    - email: hor-team@neunn.com
+      name: hor-team
     name: tomcat
     sources:
-    - http://www.neunn.com
+    - https://github.com/compassorg/repository
     urls:
-    - http://192.168.250.49:8003/charts/tomcat-0.4.2.tgz
-    version: 0.4.2
-  apache:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-08-25T14:10:03.916605824+08:00
-    description: Apache Helm chart for Kubernetes
-    digest: ed2c62274f502c075f69bbbb6e9beefb99424dc23afd5a1ba4c9f7459b179947
-    home: http://www.neunn.com
-    icon: http://www.apache.org/img/asf_logo.png
-    keywords:
-    - middleware
-    maintainers:
-    - email: zhaozy@neunn.com
-      name: zhaozy
-    name: apache
-    sources:
-    - http://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/apache-0.4.2.tgz
-    version: 0.4.2
-  mysql-service-broker:
-  - created: 2017-08-07T13:35:38.107392551+08:00
-    description: user-provided mysql-service-broker deployment Helm chart.
-    digest: bc5ce4c4b6569db6f4064cd22e72aa968961ea5a6ea9cf182a56133c5795e1fc
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
-    name: mysql-service-broker
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/mysql-service-broker-0.0.1.tgz
-    version: 0.0.1
-  postgresql-service-broker:
-  - created: 2017-08-07T13:43:40.776303255+08:00
-    description: user-provided postgresql-service-broker deployment Helm chart.
-    digest: c16d8cc0d2aa2511fb7d88e5107392bd2ccb6908b995c89a2d9b5c944523df78
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/postgresql.png
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
-    name: postgresql-service-broker
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/postgresql-service-broker-0.0.1.tgz
-    version: 0.0.1
-  mongodb-service-broker:
-  - created: 2017-08-07T13:56:40.342754668+08:00
-    description: user-provided mongodb-service-broker deployment Helm chart.
-    digest: 4fca6555687519d90886089504796694993082d1925ee4aede484fb3bd6f02e0
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/mongodb-logo.jpg
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
-    name: mongodb-service-broker
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/mongodb-service-broker-0.0.1.tgz
-    version: 0.0.1
-  db2-service-broker:
-  - created: 2017-08-07T13:53:10.131834325+08:00
-    description: user-provided db2-service-broker deployment Helm chart.
-    digest: afa9702a28ca85b625c94b24a9166175c1620608afc302eb1903800450e05bdc
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/db2_logo_image.png
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
-    name: db2-service-broker
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/db2-service-broker-0.0.1.tgz
-    version: 0.0.1
-  spring-cloud-suyan:
-  - apiVersion: v1
-    created: 2017-08-28T14:11:06.729929341+08:00
-    description: spring cloud suyan microservice deployment Helm chart.
-    digest: 0faaa91b69a14109d17c10d2c064a9f762471ae6b384d937f9dad803a7427fed
-    engine: gotpl
-    home: http://www.neunn.com
-    icon: http://orvjyath1.bkt.clouddn.com/spring-cloud.png
-    keywords:
-    - spring-cloud
-    - middleware
-    maintainers:
-    - email: wang-x@neunn.com
-      name: www.neunn.com
-    name: spring-cloud-suyan
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/spring-cloud-suyan-0.0.1.tgz
-    version: 0.0.1
-  activemq-cluster:
-  - created: 2017-08-24T17:28:35.065016172+08:00
-    description: Activemq cluster
-    digest: b561205f0606ca8a42aad72ff6ffec74feea0ccb7e8a988f0e36fbd4a9339dbd
-    engine: gotpl
-    home: http://activemq.apache.org/
-    icon: http://activemq.apache.org/images/activemq-logo.png
-    keywords:
-    - message queue
-    - cluster
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: activemq-cluster
-    sources:
-    - https://github.com/kubernetes/charts
-    urls:
-    - http://192.168.250.49:8003/charts/activemq-cluster-1.0.0.tgz
+    - http://10.2.16.4:8003/charts/tomcat-1.0.0.tgz
     version: 1.0.0
-  postgresql-cluster:
-  - apiVersion: v1
-    created: 2017-08-23T15:53:05.800516444+08:00
-    description: 基于PostgreSQL数据库的横向扩展数据库集群，具有足够的灵活性来处理不同的数据库工作负载
-    digest: 4283d36be2ced4741af453c610705240fe401b25dad1b384a355eb1a64ff89d1
-    engine: gotpl
-    home: https://www.postgresql.org/
-    icon: http://orvjyath1.bkt.clouddn.com/postgresql.png
-    keywords:
-    - postgresql
-    - database
-    - cluster
-    maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
-    name: postgresql-cluster
-    sources:
-    - https://github.com/kubernetes/helm
-    - https://github.com/kubespray/k8s-postgres
-    urls:
-    - http://192.168.250.49:8003/charts/postgresql-cluster-0.1.0.tgz
-    version: 0.1.0
-  weblogic:
-  - apiVersion: v1
-    created: 2017-08-23T15:53:05.805446158+08:00
-    description: 拥有处理关键Web应用系统问题所需的性能、可扩展性和高可用性。
-    digest: 81997b9298fb302c989cde995f3a30be68efa213b6102a16c99a85609013a914
-    engine: gotpl
-    home: https://www.oracle.com/index.html
-    icon: http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/352606.gif
-    keywords:
-    - weblogic
-    - middleware
-    maintainers:
-    - email: wangc3@neunn.com
-      name: www.neunn.com
-    name: weblogic
-    sources:
-    - https://github.com/oracle/docker-images/tree/master/OracleWebLogic
-    urls:
-    - http://192.168.250.49:8003/charts/weblogic-0.1.0.tgz
-    version: 0.1.0
-  zookeeper:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-08-24T15:20:57.29559148+08:00
-    description: 一个分布式的，开放源码的分布式应用程序协调服务。
-    digest: 5abc92f8e1851473ed6343a56da353b9df825ef37c82b14d18150b76eb875a97
-    engine: gotpl
-    home: https://zookeeper.apache.org/
-    icon: http://zookeeper.apache.org/images/zookeeper_small.gif
-    keywords:
-    - zookeeper
-    - Fast Paxos
-    - cluster
-    maintainers:
-    - email: dengfz@neunn.com
-      name: www.neunn.com
-    name: zookeeper
-    sources:
-    - https://github.com/apache/zookeeper
-    urls:
-    - http://192.168.250.49:8003/charts/zookeeper-0.1.0.tgz
-    version: 0.1.0
-  memcached-cluster:
-  - created: 2017-08-28T11:14:12.791446977+08:00
-    description: Memcached 是一个高性能的分布式内存对象缓存系统，用于动态Web应用以减轻数据库负载。
-    digest: 2e2c540a77bb0f8fcb8fed7f63cab192921d019583db4b6f73288d2b68b2c65c
-    engine: gotpl
-    icon: http://orvjyath1.bkt.clouddn.com/img.png
-    keywords:
-    - database
-    - cache
-    - cluster
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: memcached-cluster
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/memcached-cluster-1.0.0.tgz
-    version: 1.0.0
-  websphere:
-  - created: 2017-08-28T14:22:15.488649021+08:00
-    description: WebSphere 是 IBM 的软件平台。它包含了编写、运行和监视全天候的工业强度的随需应变 Web 应用程序和跨平台、跨产品解决方案所需要的整个中间件基础设施，如服务器、服务和工具。
-    digest: 52bfd407c8487a0b2e0c585117201dfb2149e5bf7fff33b7f43c5db66fc70047
-    engine: gotpl
-    icon: http://www.midvision.com/hubfs/ir_attachment_442.jpeg
-    keywords:
-    - websphere
-    - middleware
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: websphere
-    urls:
-    - http://192.168.250.49:8003/charts/websphere-1.0.0.tgz
-    version: 1.0.0
-  kibana:
-  - created: 2017-08-28T11:12:15.236197129+08:00
-    description: Kibana是一个开源的分析与可视化平台
-    digest: 6d5a53588daf2486f72cd818b508801eb4230d1d4cb93c8c2ca23a310b58fa4a
-    engine: gotpl
-    icon: http://orvjyath1.bkt.clouddn.com/kibana.png
-    keywords:
-    - middleware
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: kibana
-    urls:
-    - http://192.168.250.49:8003/charts/kibana-1.0.0.tgz
-    version: 1.0.0
-  elasticsearch-cluster:
-  - created: 2017-08-28T11:08:50.349004948+08:00
-    description: Elasticsearch cluster
-    digest: c981dc720dd9953064ac3412160f8ffe2561b781d7752b3120dc038effcbcb21
-    engine: gotpl
-    icon: http://orvjyath1.bkt.clouddn.com/es.png
-    keywords:
-    - database
-    - cluster
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: elasticsearch-cluster
-    urls:
-    - http://192.168.250.49:8003/charts/elasticsearch-cluster-2.4.1.tgz
-    version: 2.4.1
-  fluentd:
-  - created: 2017-08-28T11:10:05.178955121+08:00
-    description: fluentd
-    digest: b9cfa52a1a2cfdcfdc1f0fe42010ede471022a64ce9f318cfab554d7cf428bb7
-    engine: gotpl
-    icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo.png
-    keywords:
-    - middleware
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: fluentd
-    urls:
-    - http://192.168.250.49:8003/charts/fluentd-1.0.0.tgz
-    version: 1.0.0
-  memagent:
-  - created: 2017-08-28T11:13:14.319746764+08:00
-    description: Memagent 通过代理 Memcached 来实现集群通信。
-    digest: a8a27e18587ccb593794144dd4274b2a9afbebbcf28647fd4b3d84a317ddcb79
-    engine: gotpl
-    icon: http://orvjyath1.bkt.clouddn.com/imgproxy.png
-    keywords:
-    - database
-    - cache
-    maintainers:
-    - email: tianh@neunn.com
-      name: www.neunn.com
-    name: memagent
-    sources:
-    - https://www.neunn.com
-    urls:
-    - http://192.168.250.49:8003/charts/memagent-1.0.0.tgz
-    version: 1.0.0
-  kafka:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: 2017-08-28T11:11:10.846674966+08:00
-    description: 一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者规模的网站中的所有动作流数据。
-    digest: 19ad73df6106973ed219a2e9333d87c4b761934f8d0645a25648a3917618b9cf
-    engine: gotpl
-    home: http://kafka.apache.org/
-    icon: http://kafka.apache.org/images/logo.png
-    keywords:
-    - Kafka
-    - Broker
-    - Topic
-    - cluster
-    - message queue
-    maintainers:
-    - email: dengfz@neunn.com
-      name: www.neunn.com
-    name: kafka
-    sources:
-    - https://github.com/apache/kafka
-    urls:
-    - http://192.168.250.49:8003/charts/kafka-0.1.0.tgz
-    version: 0.1.0
-generated: 2016-11-18T15:05:51.077257234-07:00
+generated: 2017-10-25T04:42:58.793480523-04:00
