@@ -118,4 +118,22 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/spring-cloud-1.0.0.tgz
     version: 1.0.0
+  oracle-service-broker:
+  - created: 2017-10-27T03:17:08.822944277-04:00
+    description: User-provided oracle-service-broker deployment Helm chart.
+    digest: d0f057c44807ac26d252c66b48854a29c61e0098e7801d8310a3cd050c318ff1
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-service-broker.png
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: oracle-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/oracle-service-broker-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
