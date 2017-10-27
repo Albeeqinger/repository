@@ -208,4 +208,25 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/db2-service-broker-1.0.0.tgz
     version: 1.0.0
+  service-catalog:
+  - created: 2017-10-27T04:37:51.486174037-04:00
+    description: The service-catalog project is in incubation to bring integration
+      with service brokers to the Kubernetes ecosystem via the Open Service Broker
+      API.
+    digest: 8d900a57e31b838a682ea8c61928b71c0afc9e3e32bde1c129ef07ef278c1397
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-catalog.png
+    keywords:
+    - middleware
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: service-catalog
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/service-catalog-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
