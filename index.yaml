@@ -99,4 +99,23 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/etcd-1.0.0.tgz
     version: 1.0.0
+  spring-cloud:
+  - created: 2017-10-27T02:17:05.562478804-04:00
+    description: spring cloud suyan microservice deployment Helm chart.
+    digest: 220b6f4aa5d672ef70adee3c7d7a695245121362e019fae225eafc23148f06d9
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-spring-cloud.png
+    keywords:
+    - spring-cloud
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: spring-cloud
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/spring-cloud-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
