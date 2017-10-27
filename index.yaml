@@ -228,5 +228,25 @@ entries:
     - https://github.com/compassorg/repository
     urls:
     - http://10.2.16.4:8003/charts/service-catalog-1.0.0.tgz
+    version: 1.0.0 
+  kibana:
+  - created: 2017-10-27T04:55:29.136978332-04:00
+    description: Kibana lets you visualize your Elasticsearch data and navigate the
+      Elastic Stack, so you can do anything from learning why you're getting paged
+      at 2:00 a.m. to understanding the impact rain might have on your quarterly numbers.
+    digest: 4016d01bcba057d041e67ec9272e451c5a4f2e1f35563af9db1c562438b200db
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-kibana.png
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: kibana
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
