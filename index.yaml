@@ -249,4 +249,44 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/kibana-1.0.0.tgz
     version: 1.0.0
+  memagent:
+  - created: 2017-10-27T05:10:22.897279919-04:00
+    description: Memagent is an agent for Memcached.
+    digest: eff3a1ee9e232df86ccf34b5ba071f796762428c01795e0b06160a1db6517863
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-memproxy.png
+    keywords:
+    - database
+    - cache
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: memagent
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/memagent-1.0.0.tgz
+    version: 1.0.0
+  memcached-cluster:
+  - created: 2017-10-27T05:43:56.784206891-04:00
+    description: Memcached is an in-memory key-value store for small chunks of arbitrary
+      data (strings, objects) from results of database calls, API calls, or page rendering.
+    digest: a001735bff9cd4c6a33e8618e1d0af7fac7bc85f8ddc0ead5940fbe50d411b2c
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-memcached.png
+    keywords:
+    - database
+    - cache
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: memcached-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/memcached-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
