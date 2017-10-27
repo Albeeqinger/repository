@@ -78,4 +78,25 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/tomcat-1.0.0.tgz
     version: 1.0.0
+  etcd:
+  - created: 2017-10-27T01:47:17.23689484-04:00
+    description: Distributed reliable key-value store for the most critical data of
+      a distributed system.
+    digest: 961aa07972f358ca9ea1c049645f7ab5b81fc6d49d3c66feea8af70f09e9b1cb
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-etcd-horizontal.png
+    keywords:
+    - keyvalue
+    - database
+    - cluster
+    - storage
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: etcd
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/etcd-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
