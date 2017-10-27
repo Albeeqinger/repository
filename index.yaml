@@ -190,4 +190,22 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/mongodb-service-broker-1.0.0.tgz
     version: 1.0.0
+  db2-service-broker:
+  - created: 2017-10-27T04:04:23.896535584-04:00
+    description: User-provided db2-service-broker deployment Helm chart.
+    digest: 442e7894ff75851900e973b9cfaab5333f0bad1ad5b0a5c4f1079b9328733890
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-service-broker.png
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: db2-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/db2-service-broker-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
