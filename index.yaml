@@ -172,4 +172,22 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/postgresql-service-broker-1.0.0.tgz
     version: 1.0.0
+  mongodb-service-broker:
+  - created: 2017-10-27T03:55:33.459993003-04:00
+    description: User-provided mongodb-service-broker deployment Helm chart.
+    digest: 47e89e56cf2ac0daa0e3f136d129d4c215c1f0cb9a3f29e63755fb2de7fbd91f
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-service-broker.png
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: mongodb-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/mongodb-service-broker-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
