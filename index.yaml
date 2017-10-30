@@ -438,4 +438,27 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/weblogic-1.0.0.tgz
     version: 1.0.0
+  websphere:
+  - created: 2017-10-30T01:36:20.796164593-04:00
+    description: IBM® WebSphere® Application Server provides a range of flexible,
+      secure, Java EE 7 runtime environments available on premises or across any public,
+      private or hybrid cloud. Whether you’re seeking to reduce costs, unlock new
+      value from your application investment or speed time to market, WebSphere has
+      the right fit for every business need.
+    digest: 4ad4397460de9246fd72b8130ba14a10333eb9dabd2a0f0dca91f585fb21dc83
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-websphere.jpeg
+    keywords:
+    - websphere
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: websphere
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/websphere-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
