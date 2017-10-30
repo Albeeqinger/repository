@@ -289,4 +289,26 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/memcached-cluster-1.0.0.tgz
     version: 1.0.0
+  elasticsearch-cluster:
+  - created: 2017-10-29T21:25:40.038543593-04:00
+    description: Elasticsearch is a distributed, RESTful search and analytics engine
+      capable of solving a growing number of use cases. As the heart of the Elastic
+      Stack, it centrally stores your data so you can discover the expected and uncover
+      the unexpected.
+    digest: 24a5c45c1c2225a3f63968e54082842e5771ec34b5dc7d0157aa7010943e6346
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-elasticsearch.png
+    keywords:
+    - database
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: elasticsearch-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/elasticsearch-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
