@@ -461,4 +461,25 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/websphere-1.0.0.tgz
     version: 1.0.0
+  zookeeper:
+  - created: 2017-10-30T01:56:52.404755511-04:00
+    description: Apache ZooKeeper is an effort to develop and maintain an open-source
+      server which enables highly reliable distributed coordination.
+    digest: b5d566f79204b10d2893d460fb989388f26ae9b4fd0f21851e1778df109ba0a3
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-zookeeper.gif
+    keywords:
+    - zookeeper
+    - Fast Paxos
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: zookeeper
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/zookeeper-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
