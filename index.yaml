@@ -397,4 +397,23 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/kafka-1.0.0.tgz
     version: 1.0.0
+  rabbitmq-cluster:
+  - created: 2017-10-29T23:34:48.150489704-04:00
+    description: Open source message broker software that implements the Advanced
+      Message Queuing Protocol (AMQP)
+    digest: 48c0d47b1ab386c0825a3ac7eed55a156714b3b1fa8d0249e2387650f2e1b6a1
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-rabbitmq.png
+    keywords:
+    - message queue
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: rabbitmq-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/rabbitmq-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
