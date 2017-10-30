@@ -416,4 +416,26 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/rabbitmq-cluster-1.0.0.tgz
     version: 1.0.0
+  weblogic:
+  - created: 2017-10-30T01:23:45.192950846-04:00
+    description: Oracle WebLogic Server 12c R2 is the industry's best application
+      server for building and deploying enterprise Java EE applications with support
+      for new features for lowering cost of operations, improving performance, enhancing
+      scalability and supporting the Oracle Applications portfolio.
+    digest: bc90d028823f3c875a1c4733da47f9f1d8003e0ebb404ce174327f6b8983b2f4
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-weblogic.gif
+    keywords:
+    - weblogic
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: weblogic
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/weblogic-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
