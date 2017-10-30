@@ -373,4 +373,28 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/apache-1.0.0.tgz
     version: 1.0.0
+  kafka:
+  - created: 2017-10-29T23:13:32.98170613-04:00
+    description: Kafka® is used for building real-time data pipelines and streaming
+      apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in
+      production in thousands of companies.
+    digest: 71c9fd39fcb3f08acdf5c1edcb15dcb32b66490649dcc89355688f36d452fa50
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-kafka.png
+    keywords:
+    - Kafka
+    - Broker
+    - Topic
+    - cluster
+    - message queue
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: kafka
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/kafka-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
