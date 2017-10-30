@@ -331,4 +331,26 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/fluentd-1.0.0.tgz
     version: 1.0.0
+  postgresql-cluster:
+  - apiVersion: v1
+    created: 2017-10-29T22:24:08.185715894-04:00
+    description: Object-relational database management system (ORDBMS) with an emphasis
+      on extensibility and on standards-compliance.
+    digest: af12240934792779650ebf5c113d147b4bd250f786ffa70569ffaaee4914678f
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-postgresql.png
+    keywords:
+    - postgresql
+    - database
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: postgresql-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/postgresql-cluster-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
