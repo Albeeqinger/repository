@@ -311,4 +311,24 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/elasticsearch-cluster-1.0.0.tgz
     version: 1.0.0
+  fluentd:
+  - created: 2017-10-29T21:54:12.333568472-04:00
+    description: Fluentd is a fully free and fully open-source log collector that
+      instantly enables you to have a ‘Log Everything’ architecture with 600+ types
+      of systems.
+    digest: 06881c504de6333f2574f02d2f61789019be87452030a8080a6dcfab8175262b
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-fluentd.png
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: fluentd
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/fluentd-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
