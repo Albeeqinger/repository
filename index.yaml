@@ -353,4 +353,24 @@ entries:
     urls:
     - http://10.2.16.4:8003/charts/postgresql-cluster-1.0.0.tgz
     version: 1.0.0
+  apache:
+  - created: 2017-10-29T22:51:50.95639709-04:00
+    description: The Apache HTTP Server Project is an effort to develop and maintain
+      an open-source HTTP server for modern operating systems including UNIX and Windows.
+      The goal of this project is to provide a secure, efficient and extensible server
+      that provides HTTP services in sync with the current HTTP standards.
+    digest: 0e17a0cd08841d471b797117d0ae38f3d83f98c5a52fb30d5e1ea48b49d81313
+    home: http://www.neunn.com/
+    icon: http://10.2.16.4:8003/logo-apache.png
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: apache
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://10.2.16.4:8003/charts/apache-1.0.0.tgz
+    version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
