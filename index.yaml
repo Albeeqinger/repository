@@ -545,4 +545,22 @@ entries:
     urls:
     - http://192.168.250.49:8003/charts/kafka-0.1.0.tgz
     version: 0.1.0
+  kafka-es-connector:
+  - created: 2017-12-01T14:08:17.355530943+08:00
+    description: kafka-es-connector
+    digest: 6cda081b4c032de98d4069d45738accbe787f65969494f7cdc1dddf455b4c31e
+    engine: gotpl
+    home: http://cmsoft.10086.cn/
+    icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo.png
+    keywords:
+    - middleware
+    maintainers:
+    - email: cmss@cmss.chinamobile.com
+      name: cmss
+    name: kafka-es-connector
+    sources:
+    - http://cmsoft.10086.cn/
+    urls:
+    - http://192.168.250.49:8003/charts/kafka-es-connector-1.0.0.tgz
+    version: 1.0.0
 generated: 2016-11-18T15:05:51.077257234-07:00
