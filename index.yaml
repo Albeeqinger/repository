@@ -7,7 +7,7 @@ entries:
     digest: fba511e0e191c10941718ddb91a66c326d348215e2449b27f5d26ea8c73e21b8
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-mysql.png
+    icon: http://192.168.250.33/logo-mysql.png
     keywords:
     - mysql
     - database
@@ -19,7 +19,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/mysql-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/mysql-cluster-1.0.0.tgz
     version: 1.0.0
   redis-cluster:
   - created: 2017-10-25T04:43:58.552125815-04:00
@@ -27,7 +27,7 @@ entries:
     digest: afeaf20be6433544c80d7630471e74831b3ade70088a32087a333a5c5af7428c
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-redis.png
+    icon: http://192.168.250.33/logo-redis.png
     keywords:
     - redis
     - keyvalue
@@ -39,7 +39,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/redis-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/redis-cluster-1.0.0.tgz
     version: 1.0.0
   nginx:
   - created: 2017-10-25T04:43:52.688139613-04:00
@@ -47,7 +47,7 @@ entries:
       at large-scale web integration, application security, and web acceleration.
     digest: 89f4dd7addc35c784d665697af8b166799211a36010f962c5c40e29beb4bad38
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-nginx.png
+    icon: http://192.168.250.33/logo-nginx.png
     keywords:
     - middleware
     maintainers:
@@ -57,7 +57,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/nginx-1.0.0.tgz
+    - http://192.168.250.33/charts/nginx-1.0.0.tgz
     version: 1.0.0
   tomcat:
   - created: 2017-10-25T04:44:04.745172167-04:00
@@ -66,7 +66,7 @@ entries:
       technologies.
     digest: 1449f528041b14a4f1c6a463dccb97007d902f4865cc4512ace26508f499b9b8
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-tomcat.png
+    icon: http://192.168.250.33/logo-tomcat.png
     keywords:
     - middleware
     maintainers:
@@ -76,7 +76,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/tomcat-1.0.0.tgz
+    - http://192.168.250.33/charts/tomcat-1.0.0.tgz
     version: 1.0.0
   etcd:
   - created: 2017-10-27T01:47:17.23689484-04:00
@@ -84,7 +84,7 @@ entries:
       a distributed system.
     digest: 961aa07972f358ca9ea1c049645f7ab5b81fc6d49d3c66feea8af70f09e9b1cb
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-etcd-horizontal.png
+    icon: http://192.168.250.33/logo-etcd-horizontal.png
     keywords:
     - keyvalue
     - database
@@ -97,7 +97,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/etcd-1.0.0.tgz
+    - http://192.168.250.33/charts/etcd-1.0.0.tgz
     version: 1.0.0
   spring-cloud:
   - created: 2017-10-27T02:17:05.562478804-04:00
@@ -105,7 +105,7 @@ entries:
     digest: 220b6f4aa5d672ef70adee3c7d7a695245121362e019fae225eafc23148f06d9
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-spring-cloud.png
+    icon: http://192.168.250.33/logo-spring-cloud.png
     keywords:
     - spring-cloud
     - middleware
@@ -116,7 +116,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/spring-cloud-1.0.0.tgz
+    - http://192.168.250.33/charts/spring-cloud-1.0.0.tgz
     version: 1.0.0
   oracle-service-broker:
   - created: 2017-10-27T03:17:08.822944277-04:00
@@ -124,7 +124,7 @@ entries:
     digest: d0f057c44807ac26d252c66b48854a29c61e0098e7801d8310a3cd050c318ff1
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-service-broker.png
+    icon: http://192.168.250.33/logo-service-broker.png
     keywords:
     - servicebroker
     maintainers:
@@ -134,7 +134,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/oracle-service-broker-1.0.0.tgz
+    - http://192.168.250.33/charts/oracle-service-broker-1.0.0.tgz
     version: 1.0.0
   mysql-service-broker:
   - created: 2017-10-27T03:35:23.477054046-04:00
@@ -142,7 +142,7 @@ entries:
     digest: 5903fc21e018f8b5bf0760f048f7fd9a4e77ee595d2e208fe173db28daabaaf5
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-service-broker.png
+    icon: http://192.168.250.33/logo-service-broker.png
     keywords:
     - servicebroker
     maintainers:
@@ -152,7 +152,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/mysql-service-broker-1.0.0.tgz
+    - http://192.168.250.33/charts/mysql-service-broker-1.0.0.tgz
     version: 1.0.0
   postgresql-service-broker:
   - created: 2017-10-27T03:48:24.950279115-04:00
@@ -160,7 +160,7 @@ entries:
     digest: 5cc21c082501d81a6867db38c6cc976834f4cb15e760ec69982b45fe7329e2cb
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-service-broker.png
+    icon: http://192.168.250.33/logo-service-broker.png
     keywords:
     - servicebroker
     maintainers:
@@ -170,7 +170,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/postgresql-service-broker-1.0.0.tgz
+    - http://192.168.250.33/charts/postgresql-service-broker-1.0.0.tgz
     version: 1.0.0
   mongodb-service-broker:
   - created: 2017-10-27T03:55:33.459993003-04:00
@@ -178,7 +178,7 @@ entries:
     digest: 47e89e56cf2ac0daa0e3f136d129d4c215c1f0cb9a3f29e63755fb2de7fbd91f
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-service-broker.png
+    icon: http://192.168.250.33/logo-service-broker.png
     keywords:
     - servicebroker
     maintainers:
@@ -188,7 +188,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/mongodb-service-broker-1.0.0.tgz
+    - http://192.168.250.33/charts/mongodb-service-broker-1.0.0.tgz
     version: 1.0.0
   db2-service-broker:
   - created: 2017-10-27T04:04:23.896535584-04:00
@@ -196,7 +196,7 @@ entries:
     digest: 442e7894ff75851900e973b9cfaab5333f0bad1ad5b0a5c4f1079b9328733890
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-service-broker.png
+    icon: http://192.168.250.33/logo-service-broker.png
     keywords:
     - servicebroker
     maintainers:
@@ -206,7 +206,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/db2-service-broker-1.0.0.tgz
+    - http://192.168.250.33/charts/db2-service-broker-1.0.0.tgz
     version: 1.0.0
   service-catalog:
   - created: 2017-10-27T04:37:51.486174037-04:00
@@ -216,7 +216,7 @@ entries:
     digest: 8d900a57e31b838a682ea8c61928b71c0afc9e3e32bde1c129ef07ef278c1397
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-catalog.png
+    icon: http://192.168.250.33/logo-catalog.png
     keywords:
     - middleware
     - servicebroker
@@ -227,7 +227,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/service-catalog-1.0.0.tgz
+    - http://192.168.250.33/charts/service-catalog-1.0.0.tgz
     version: 1.0.0 
   kibana:
   - created: 2017-10-27T04:55:29.136978332-04:00
@@ -237,7 +237,7 @@ entries:
     digest: 4016d01bcba057d041e67ec9272e451c5a4f2e1f35563af9db1c562438b200db
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-kibana.png
+    icon: http://192.168.250.33/logo-kibana.png
     keywords:
     - middleware
     maintainers:
@@ -247,7 +247,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/kibana-1.0.0.tgz
+    - http://192.168.250.33/charts/kibana-1.0.0.tgz
     version: 1.0.0
   memagent:
   - created: 2017-10-27T05:10:22.897279919-04:00
@@ -255,7 +255,7 @@ entries:
     digest: eff3a1ee9e232df86ccf34b5ba071f796762428c01795e0b06160a1db6517863
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-memproxy.png
+    icon: http://192.168.250.33/logo-memproxy.png
     keywords:
     - database
     - cache
@@ -266,7 +266,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/memagent-1.0.0.tgz
+    - http://192.168.250.33/charts/memagent-1.0.0.tgz
     version: 1.0.0
   memcached-cluster:
   - created: 2017-10-27T05:43:56.784206891-04:00
@@ -275,7 +275,7 @@ entries:
     digest: a001735bff9cd4c6a33e8618e1d0af7fac7bc85f8ddc0ead5940fbe50d411b2c
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-memcached.png
+    icon: http://192.168.250.33/logo-memcached.png
     keywords:
     - database
     - cache
@@ -287,7 +287,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/memcached-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/memcached-cluster-1.0.0.tgz
     version: 1.0.0
   elasticsearch-cluster:
   - created: 2017-10-29T21:25:40.038543593-04:00
@@ -298,7 +298,7 @@ entries:
     digest: 24a5c45c1c2225a3f63968e54082842e5771ec34b5dc7d0157aa7010943e6346
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-elasticsearch.png
+    icon: http://192.168.250.33/logo-elasticsearch.png
     keywords:
     - database
     - cluster
@@ -309,7 +309,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/elasticsearch-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/elasticsearch-cluster-1.0.0.tgz
     version: 1.0.0
   fluentd:
   - created: 2017-10-29T21:54:12.333568472-04:00
@@ -319,7 +319,7 @@ entries:
     digest: 06881c504de6333f2574f02d2f61789019be87452030a8080a6dcfab8175262b
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-fluentd.png
+    icon: http://192.168.250.33/logo-fluentd.png
     keywords:
     - middleware
     maintainers:
@@ -329,7 +329,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/fluentd-1.0.0.tgz
+    - http://192.168.250.33/charts/fluentd-1.0.0.tgz
     version: 1.0.0
   postgresql-cluster:
   - apiVersion: v1
@@ -339,7 +339,7 @@ entries:
     digest: af12240934792779650ebf5c113d147b4bd250f786ffa70569ffaaee4914678f
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-postgresql.png
+    icon: http://192.168.250.33/logo-postgresql.png
     keywords:
     - postgresql
     - database
@@ -351,7 +351,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/postgresql-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/postgresql-cluster-1.0.0.tgz
     version: 1.0.0
   apache:
   - created: 2017-10-29T22:51:50.95639709-04:00
@@ -361,7 +361,7 @@ entries:
       that provides HTTP services in sync with the current HTTP standards.
     digest: 0e17a0cd08841d471b797117d0ae38f3d83f98c5a52fb30d5e1ea48b49d81313
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-apache.png
+    icon: http://192.168.250.33/logo-apache.png
     keywords:
     - middleware
     maintainers:
@@ -371,7 +371,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/apache-1.0.0.tgz
+    - http://192.168.250.33/charts/apache-1.0.0.tgz
     version: 1.0.0
   kafka:
   - created: 2017-10-29T23:13:32.98170613-04:00
@@ -381,7 +381,7 @@ entries:
     digest: 71c9fd39fcb3f08acdf5c1edcb15dcb32b66490649dcc89355688f36d452fa50
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-kafka.png
+    icon: http://192.168.250.33/logo-kafka.png
     keywords:
     - Kafka
     - Broker
@@ -395,7 +395,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/kafka-1.0.0.tgz
+    - http://192.168.250.33/charts/kafka-1.0.0.tgz
     version: 1.0.0
   rabbitmq-cluster:
   - created: 2017-10-29T23:34:48.150489704-04:00
@@ -404,7 +404,7 @@ entries:
     digest: 48c0d47b1ab386c0825a3ac7eed55a156714b3b1fa8d0249e2387650f2e1b6a1
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-rabbitmq.png
+    icon: http://192.168.250.33/logo-rabbitmq.png
     keywords:
     - message queue
     maintainers:
@@ -414,7 +414,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/rabbitmq-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/rabbitmq-cluster-1.0.0.tgz
     version: 1.0.0
   weblogic:
   - created: 2017-10-30T01:23:45.192950846-04:00
@@ -425,7 +425,7 @@ entries:
     digest: bc90d028823f3c875a1c4733da47f9f1d8003e0ebb404ce174327f6b8983b2f4
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-weblogic.gif
+    icon: http://192.168.250.33/logo-weblogic.gif
     keywords:
     - weblogic
     - middleware
@@ -436,7 +436,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/weblogic-1.0.0.tgz
+    - http://192.168.250.33/charts/weblogic-1.0.0.tgz
     version: 1.0.0
   websphere:
   - created: 2017-10-30T01:36:20.796164593-04:00
@@ -448,7 +448,7 @@ entries:
     digest: 4ad4397460de9246fd72b8130ba14a10333eb9dabd2a0f0dca91f585fb21dc83
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-websphere.jpeg
+    icon: http://192.168.250.33/logo-websphere.jpeg
     keywords:
     - websphere
     - middleware
@@ -459,7 +459,7 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/websphere-1.0.0.tgz
+    - http://192.168.250.33/charts/websphere-1.0.0.tgz
     version: 1.0.0
   zookeeper:
   - created: 2017-10-30T01:56:52.404755511-04:00
@@ -468,7 +468,7 @@ entries:
     digest: b5d566f79204b10d2893d460fb989388f26ae9b4fd0f21851e1778df109ba0a3
     engine: gotpl
     home: http://www.neunn.com/
-    icon: http://10.2.16.4:8003/logo-zookeeper.gif
+    icon: http://192.168.250.33/logo-zookeeper.gif
     keywords:
     - zookeeper
     - Fast Paxos
@@ -480,6 +480,6 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - http://10.2.16.4:8003/charts/zookeeper-1.0.0.tgz
+    - http://192.168.250.33/charts/zookeeper-1.0.0.tgz
     version: 1.0.0
 generated: 2017-10-25T04:42:58.793480523-04:00
