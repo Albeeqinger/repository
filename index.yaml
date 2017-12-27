@@ -1,88 +1,70 @@
 apiVersion: v1
 entries:
-  mysql-cluster:
-  - created: 2017-10-25T04:42:58.794341247-04:00
-    description: Fast, reliable, scalable, and easy to use open-source relational
-      database system.
-    digest: fba511e0e191c10941718ddb91a66c326d348215e2449b27f5d26ea8c73e21b8
+  apache:
+  - created: 2017-12-27T02:53:04.545498065-05:00
+    description: The Apache HTTP Server Project is an effort to develop and maintain
+      an open-source HTTP server for modern operating systems including UNIX and Windows.
+      The goal of this project is to provide a secure, efficient and extensible server
+      that provides HTTP services in sync with the current HTTP standards.
+    digest: de412509757dd23d08784d31712c4fc7df1cdd5e744e6931bbe86c2907aeeddc
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-apache.png?raw=true
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: apache
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/apache-1.0.0.tgz
+    version: 1.0.0
+  db2-service-broker:
+  - created: 2017-12-27T02:53:04.547277935-05:00
+    description: User-provided db2-service-broker deployment Helm chart.
+    digest: 87cd70fb8ca28c051e9cf605311d958c1494be3765bf02fa270e98eac2e9c856
     engine: gotpl
     home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-mysql.png?raw=true
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
     keywords:
-    - mysql
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: db2-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/db2-service-broker-1.0.0.tgz
+    version: 1.0.0
+  elasticsearch-cluster:
+  - created: 2017-12-27T02:53:04.54944379-05:00
+    description: Elasticsearch is a distributed, RESTful search and analytics engine
+      capable of solving a growing number of use cases. As the heart of the Elastic
+      Stack, it centrally stores your data so you can discover the expected and uncover
+      the unexpected.
+    digest: 1969e138c9152d0ba5c80f0fe1007cd93bce4594a738e775c052efe6a9c4ae6a
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-elasticsearch.png?raw=true
+    keywords:
     - database
     - cluster
     maintainers:
     - email: hor-team@neunn.com
       name: hor-team
-    name: mysql-cluster
+    name: elasticsearch-cluster
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/mysql-cluster-1.0.0.tgz
-    version: 1.0.0
-  redis-cluster:
-  - created: 2017-10-25T04:43:58.552125815-04:00
-    description: Highly available Redis cluster with multiple sentinels and standbys.
-    digest: afeaf20be6433544c80d7630471e74831b3ade70088a32087a333a5c5af7428c
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-redis.png?raw=true
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: redis-cluster
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/redis-cluster-1.0.0.tgz
-    version: 1.0.0
-  nginx:
-  - created: 2017-10-25T04:43:52.688139613-04:00
-    description: NGINX is an open source web server and reverse proxy that excels
-      at large-scale web integration, application security, and web acceleration.
-    digest: 89f4dd7addc35c784d665697af8b166799211a36010f962c5c40e29beb4bad38
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-nginx.png?raw=true
-    keywords:
-    - middleware
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: nginx
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/nginx-1.0.0.tgz
-    version: 1.0.0
-  tomcat:
-  - created: 2017-10-25T04:44:04.745172167-04:00
-    description: The Apache Tomcat® software is an open source implementation of the
-      Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
-      technologies.
-    digest: 1449f528041b14a4f1c6a463dccb97007d902f4865cc4512ace26508f499b9b8
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-tomcat.png?raw=true
-    keywords:
-    - middleware
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: tomcat
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/tomcat-1.0.0.tgz
+    - http://192.168.250.33/charts/elasticsearch-cluster-1.0.0.tgz
     version: 1.0.0
   etcd:
-  - created: 2017-10-27T01:47:17.23689484-04:00
+  - created: 2017-12-27T02:53:04.550129634-05:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
-    digest: 961aa07972f358ca9ea1c049645f7ab5b81fc6d49d3c66feea8af70f09e9b1cb
+    digest: 2a05f321338558f896045a232de98469aad2bb18f7954b92cb52dd0a9da65dad
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-etcd-horizontal.png?raw=true
     keywords:
@@ -97,226 +79,14 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/etcd-1.0.0.tgz
-    version: 1.0.0
-  spring-cloud:
-  - created: 2017-10-27T02:17:05.562478804-04:00
-    description: spring cloud suyan microservice deployment Helm chart.
-    digest: 220b6f4aa5d672ef70adee3c7d7a695245121362e019fae225eafc23148f06d9
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-spring-cloud.png?raw=true
-    keywords:
-    - spring-cloud
-    - middleware
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: spring-cloud
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/spring-cloud-1.0.0.tgz
-    version: 1.0.0
-  oracle-service-broker:
-  - created: 2017-10-27T03:17:08.822944277-04:00
-    description: User-provided oracle-service-broker deployment Helm chart.
-    digest: d0f057c44807ac26d252c66b48854a29c61e0098e7801d8310a3cd050c318ff1
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: oracle-service-broker
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/oracle-service-broker-1.0.0.tgz
-    version: 1.0.0
-  mysql-service-broker:
-  - created: 2017-10-27T03:35:23.477054046-04:00
-    description: User-provided mysql-service-broker deployment Helm chart.
-    digest: 5903fc21e018f8b5bf0760f048f7fd9a4e77ee595d2e208fe173db28daabaaf5
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: mysql-service-broker
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/mysql-service-broker-1.0.0.tgz
-    version: 1.0.0
-  postgresql-service-broker:
-  - created: 2017-10-27T03:48:24.950279115-04:00
-    description: User-provided postgresql-service-broker deployment Helm chart.
-    digest: 5cc21c082501d81a6867db38c6cc976834f4cb15e760ec69982b45fe7329e2cb
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: postgresql-service-broker
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/postgresql-service-broker-1.0.0.tgz
-    version: 1.0.0
-  mongodb-service-broker:
-  - created: 2017-10-27T03:55:33.459993003-04:00
-    description: User-provided mongodb-service-broker deployment Helm chart.
-    digest: 47e89e56cf2ac0daa0e3f136d129d4c215c1f0cb9a3f29e63755fb2de7fbd91f
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: mongodb-service-broker
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/mongodb-service-broker-1.0.0.tgz
-    version: 1.0.0
-  db2-service-broker:
-  - created: 2017-10-27T04:04:23.896535584-04:00
-    description: User-provided db2-service-broker deployment Helm chart.
-    digest: 442e7894ff75851900e973b9cfaab5333f0bad1ad5b0a5c4f1079b9328733890
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
-    keywords:
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: db2-service-broker
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/db2-service-broker-1.0.0.tgz
-    version: 1.0.0
-  service-catalog:
-  - created: 2017-10-27T04:37:51.486174037-04:00
-    description: The service-catalog project is in incubation to bring integration
-      with service brokers to the Kubernetes ecosystem via the Open Service Broker
-      API.
-    digest: 8d900a57e31b838a682ea8c61928b71c0afc9e3e32bde1c129ef07ef278c1397
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-catalog.png?raw=true
-    keywords:
-    - middleware
-    - servicebroker
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: service-catalog
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/service-catalog-1.0.0.tgz
-    version: 1.0.0 
-  kibana:
-  - created: 2017-10-27T04:55:29.136978332-04:00
-    description: Kibana lets you visualize your Elasticsearch data and navigate the
-      Elastic Stack, so you can do anything from learning why you're getting paged
-      at 2:00 a.m. to understanding the impact rain might have on your quarterly numbers.
-    digest: 4016d01bcba057d041e67ec9272e451c5a4f2e1f35563af9db1c562438b200db
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-kibana.png?raw=true
-    keywords:
-    - middleware
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: kibana
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/kibana-1.0.0.tgz
-    version: 1.0.0
-  memagent:
-  - created: 2017-10-27T05:10:22.897279919-04:00
-    description: Memagent is an agent for Memcached.
-    digest: eff3a1ee9e232df86ccf34b5ba071f796762428c01795e0b06160a1db6517863
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-memproxy.png?raw=true
-    keywords:
-    - database
-    - cache
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: memagent
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/memagent-1.0.0.tgz
-    version: 1.0.0
-  memcached-cluster:
-  - created: 2017-10-27T05:43:56.784206891-04:00
-    description: Memcached is an in-memory key-value store for small chunks of arbitrary
-      data (strings, objects) from results of database calls, API calls, or page rendering.
-    digest: a001735bff9cd4c6a33e8618e1d0af7fac7bc85f8ddc0ead5940fbe50d411b2c
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-memcached.png?raw=true
-    keywords:
-    - database
-    - cache
-    - cluster
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: memcached-cluster
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/memcached-cluster-1.0.0.tgz
-    version: 1.0.0
-  elasticsearch-cluster:
-  - created: 2017-10-29T21:25:40.038543593-04:00
-    description: Elasticsearch is a distributed, RESTful search and analytics engine
-      capable of solving a growing number of use cases. As the heart of the Elastic
-      Stack, it centrally stores your data so you can discover the expected and uncover
-      the unexpected.
-    digest: 24a5c45c1c2225a3f63968e54082842e5771ec34b5dc7d0157aa7010943e6346
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-elasticsearch.png?raw=true
-    keywords:
-    - database
-    - cluster
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: elasticsearch-cluster
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/elasticsearch-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/etcd-1.0.0.tgz
     version: 1.0.0
   fluentd:
-  - created: 2017-10-29T21:54:12.333568472-04:00
+  - created: 2017-12-27T02:53:04.55161998-05:00
     description: Fluentd is a fully free and fully open-source log collector that
       instantly enables you to have a ‘Log Everything’ architecture with 600+ types
       of systems.
-    digest: 06881c504de6333f2574f02d2f61789019be87452030a8080a6dcfab8175262b
+    digest: 1090e91552f4c2bbfe667b9a4f857df4f1865eba3c50cdd2eb7cc576288090c8
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-fluentd.png?raw=true
@@ -329,56 +99,14 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/fluentd-1.0.0.tgz
-    version: 1.0.0
-  postgresql-cluster:
-  - apiVersion: v1
-    created: 2017-10-29T22:24:08.185715894-04:00
-    description: Object-relational database management system (ORDBMS) with an emphasis
-      on extensibility and on standards-compliance.
-    digest: af12240934792779650ebf5c113d147b4bd250f786ffa70569ffaaee4914678f
-    engine: gotpl
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-postgresql.png?raw=true
-    keywords:
-    - postgresql
-    - database
-    - cluster
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: postgresql-cluster
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/postgresql-cluster-1.0.0.tgz
-    version: 1.0.0
-  apache:
-  - created: 2017-10-29T22:51:50.95639709-04:00
-    description: The Apache HTTP Server Project is an effort to develop and maintain
-      an open-source HTTP server for modern operating systems including UNIX and Windows.
-      The goal of this project is to provide a secure, efficient and extensible server
-      that provides HTTP services in sync with the current HTTP standards.
-    digest: 0e17a0cd08841d471b797117d0ae38f3d83f98c5a52fb30d5e1ea48b49d81313
-    home: http://www.neunn.com/
-    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-apache.png?raw=true
-    keywords:
-    - middleware
-    maintainers:
-    - email: hor-team@neunn.com
-      name: hor-team
-    name: apache
-    sources:
-    - https://github.com/compassorg/repository
-    urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/apache-1.0.0.tgz
+    - http://192.168.250.33/charts/fluentd-1.0.0.tgz
     version: 1.0.0
   kafka:
-  - created: 2017-10-29T23:13:32.98170613-04:00
+  - created: 2017-12-27T02:53:04.552188762-05:00
     description: Kafka® is used for building real-time data pipelines and streaming
       apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in
       production in thousands of companies.
-    digest: 71c9fd39fcb3f08acdf5c1edcb15dcb32b66490649dcc89355688f36d452fa50
+    digest: 106c9b64884471f349f41383ed2690024dc03fe4ef2edff89def1b1835d1702b
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-kafka.png?raw=true
@@ -395,13 +123,206 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/kafka-1.0.0.tgz
+    - http://192.168.250.33/charts/kafka-1.0.0.tgz
+    version: 1.0.0
+  kibana:
+  - created: 2017-12-27T02:53:04.554466017-05:00
+    description: Kibana lets you visualize your Elasticsearch data and navigate the
+      Elastic Stack, so you can do anything from learning why you're getting paged
+      at 2:00 a.m. to understanding the impact rain might have on your quarterly numbers.
+    digest: 738f73766a62b58f9b1e3c7f0ade4a2cc358f31af193f94944690205f49727a7
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-kibana.png?raw=true
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: kibana
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/kibana-1.0.0.tgz
+    version: 1.0.0
+  memagent:
+  - created: 2017-12-27T02:53:04.556409761-05:00
+    description: Memagent is an agent for Memcached.
+    digest: 02264d5559135fc209b63f02ac38cd23c31ddb6b5dbcbd4ece72257b78ac8641
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-memproxy.png?raw=true
+    keywords:
+    - database
+    - cache
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: memagent
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/memagent-1.0.0.tgz
+    version: 1.0.0
+  memcached-cluster:
+  - created: 2017-12-27T02:53:04.55875184-05:00
+    description: Memcached is an in-memory key-value store for small chunks of arbitrary
+      data (strings, objects) from results of database calls, API calls, or page rendering.
+    digest: f14cb763bb114a3fff8597d0fa7000930000030d68975f81ec4b1a4ce86a617e
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-memcached.png?raw=true
+    keywords:
+    - database
+    - cache
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: memcached-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/memcached-cluster-1.0.0.tgz
+    version: 1.0.0
+  mongodb-service-broker:
+  - created: 2017-12-27T02:53:04.55948085-05:00
+    description: User-provided mongodb-service-broker deployment Helm chart.
+    digest: f840fe0818e07a503c17ef6ee4d67d762244e42c07beee79d3bd343a4a993b0c
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: mongodb-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/mongodb-service-broker-1.0.0.tgz
+    version: 1.0.0
+  mysql-cluster:
+  - created: 2017-12-27T02:53:04.560476938-05:00
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 9289a6f732a07952a77f2005b94257d303eedf9b1bcecafb220b98077071223e
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-mysql.png?raw=true
+    keywords:
+    - mysql
+    - database
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: mysql-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/mysql-cluster-1.0.0.tgz
+    version: 1.0.0
+  mysql-service-broker:
+  - created: 2017-12-27T02:53:04.561179728-05:00
+    description: User-provided mysql-service-broker deployment Helm chart.
+    digest: 1376604e8d84ef41e132763cba1510beb13149651b5509d79cdeca4c7fb10abd
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: mysql-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/mysql-service-broker-1.0.0.tgz
+    version: 1.0.0
+  nginx:
+  - created: 2017-12-27T02:53:04.562160359-05:00
+    description: NGINX is an open source web server and reverse proxy that excels
+      at large-scale web integration, application security, and web acceleration.
+    digest: 6e4fe1c16155e24725ea9ce09f6c6d97f526445fd27e057a29c6fdf122887aaa
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-nginx.png?raw=true
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: nginx
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/nginx-1.0.0.tgz
+    version: 1.0.0
+  oracle-service-broker:
+  - created: 2017-12-27T02:53:04.56268556-05:00
+    description: User-provided oracle-service-broker deployment Helm chart.
+    digest: 1f07c8a5118ff61e6b58e9908861cfc2b52d6d29955d452773f01e699fced9db
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: oracle-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/oracle-service-broker-1.0.0.tgz
+    version: 1.0.0
+  postgresql-cluster:
+  - apiVersion: v1
+    created: 2017-12-27T02:53:04.570220573-05:00
+    description: Object-relational database management system (ORDBMS) with an emphasis
+      on extensibility and on standards-compliance.
+    digest: f92f60b6eb5c710bbc9f1ed44df333fcbb69e4c33cf4da4d79c62228c31ff8b1
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-postgresql.png?raw=true
+    keywords:
+    - postgresql
+    - database
+    - cluster
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: postgresql-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/postgresql-cluster-1.0.0.tgz
+    version: 1.0.0
+  postgresql-service-broker:
+  - created: 2017-12-27T02:53:04.571148431-05:00
+    description: User-provided postgresql-service-broker deployment Helm chart.
+    digest: a2d60c104374d5707dd7f6f6e0f56ea9cc93d56093b81e3e8b5913ca1a53c263
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-service-broker.png?raw=true
+    keywords:
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: postgresql-service-broker
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/postgresql-service-broker-1.0.0.tgz
     version: 1.0.0
   rabbitmq-cluster:
-  - created: 2017-10-29T23:34:48.150489704-04:00
+  - created: 2017-12-27T02:53:04.572168217-05:00
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
-    digest: 48c0d47b1ab386c0825a3ac7eed55a156714b3b1fa8d0249e2387650f2e1b6a1
+    digest: 2053da52f0454a8545b9ade6c455cd677f26d85fe7d6ef633af3fdc9187bfe09
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-rabbitmq.png?raw=true
@@ -414,15 +335,94 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/rabbitmq-cluster-1.0.0.tgz
+    - http://192.168.250.33/charts/rabbitmq-cluster-1.0.0.tgz
+    version: 1.0.0
+  redis-cluster:
+  - created: 2017-12-27T02:53:04.580039106-05:00
+    description: Highly available Redis cluster with multiple sentinels and standbys.
+    digest: c9a1e083db1163a981ea9a86a6f73ed4d768a67f63adb346fdf9fd7e5016b8c8
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-redis.png?raw=true
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: redis-cluster
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/redis-cluster-1.0.0.tgz
+    version: 1.0.0
+  service-catalog:
+  - created: 2017-12-27T02:53:04.586905505-05:00
+    description: The service-catalog project is in incubation to bring integration
+      with service brokers to the Kubernetes ecosystem via the Open Service Broker
+      API.
+    digest: 3cd38b6e8942b852aee8298f0af3d1d759afee1fe560420f80f8ec147d96c3d4
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-catalog.png?raw=true
+    keywords:
+    - middleware
+    - servicebroker
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: service-catalog
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/service-catalog-1.0.0.tgz
+    version: 1.0.0
+  spring-cloud:
+  - created: 2017-12-27T02:53:04.587866166-05:00
+    description: spring cloud suyan microservice deployment Helm chart.
+    digest: ccd82113ce89125efc9de2428b454d51242155130f5d8d169a4c94614707cb27
+    engine: gotpl
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-spring-cloud.png?raw=true
+    keywords:
+    - spring-cloud
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: spring-cloud
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/spring-cloud-1.0.0.tgz
+    version: 1.0.0
+  tomcat:
+  - created: 2017-12-27T02:53:04.5887325-05:00
+    description: The Apache Tomcat® software is an open source implementation of the
+      Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
+      technologies.
+    digest: abffda00f8cb552632a38c60e7b1ac9335ad6ae8274b7c008f6fc3575b75c66e
+    home: http://www.neunn.com/
+    icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-tomcat.png?raw=true
+    keywords:
+    - middleware
+    maintainers:
+    - email: hor-team@neunn.com
+      name: hor-team
+    name: tomcat
+    sources:
+    - https://github.com/compassorg/repository
+    urls:
+    - http://192.168.250.33/charts/tomcat-1.0.0.tgz
     version: 1.0.0
   weblogic:
-  - created: 2017-10-30T01:23:45.192950846-04:00
+  - created: 2017-12-27T02:53:04.58963939-05:00
     description: Oracle WebLogic Server 12c R2 is the industry's best application
       server for building and deploying enterprise Java EE applications with support
       for new features for lowering cost of operations, improving performance, enhancing
       scalability and supporting the Oracle Applications portfolio.
-    digest: bc90d028823f3c875a1c4733da47f9f1d8003e0ebb404ce174327f6b8983b2f4
+    digest: 8699ec2a6028e92e42d558fd3da6772805b95a992cb2dc08c5527f35c91134c7
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-weblogic.gif?raw=true
@@ -436,16 +436,16 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/weblogic-1.0.0.tgz
+    - http://192.168.250.33/charts/weblogic-1.0.0.tgz
     version: 1.0.0
   websphere:
-  - created: 2017-10-30T01:36:20.796164593-04:00
+  - created: 2017-12-27T02:53:04.592062263-05:00
     description: IBM® WebSphere® Application Server provides a range of flexible,
       secure, Java EE 7 runtime environments available on premises or across any public,
       private or hybrid cloud. Whether you’re seeking to reduce costs, unlock new
       value from your application investment or speed time to market, WebSphere has
       the right fit for every business need.
-    digest: 4ad4397460de9246fd72b8130ba14a10333eb9dabd2a0f0dca91f585fb21dc83
+    digest: 4f2b6a7a8972800c7d77b1701953180f2bdea32621b2e76009eeef2c920d547b
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-websphere.jpeg?raw=true
@@ -459,13 +459,13 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/websphere-1.0.0.tgz
+    - http://192.168.250.33/charts/websphere-1.0.0.tgz
     version: 1.0.0
   zookeeper:
-  - created: 2017-10-30T01:56:52.404755511-04:00
+  - created: 2017-12-27T02:53:04.593030505-05:00
     description: Apache ZooKeeper is an effort to develop and maintain an open-source
       server which enables highly reliable distributed coordination.
-    digest: b5d566f79204b10d2893d460fb989388f26ae9b4fd0f21851e1778df109ba0a3
+    digest: cb25ea96e823cf714e795960d27b5455880f602960db9abcf3777a90df83f866
     engine: gotpl
     home: http://www.neunn.com/
     icon: https://github.com/compassorg/repository/blob/gh-pages/images/logo-zookeeper.gif?raw=true
@@ -480,6 +480,6 @@ entries:
     sources:
     - https://github.com/compassorg/repository
     urls:
-    - https://github.com/compassorg/repository/blob/gh-pages/images/charts/zookeeper-1.0.0.tgz
+    - http://192.168.250.33/charts/zookeeper-1.0.0.tgz
     version: 1.0.0
-generated: 2017-10-25T04:42:58.793480523-04:00
+generated: 2017-12-27T02:53:04.544005486-05:00
